@@ -715,17 +715,17 @@ ul.payment-list {
 /**
  * zhao wu jie
  ***************************************************************/
-.protal-swiper .swiper-slide .zaowujie {
+.protal-swiper .swiper-slide.zaowujie {
     background: url("../img/index/holo-era.png") no-repeat center;
     background-size: 100% 100%;
 }
 
-.protal-swiper .swiper-slide .hit-holoera {
+.protal-swiper .swiper-slide.hit-holoera {
     background: url("../img/index/banner-holoera-hit.jpg") no-repeat center;
     background-size: 100% 100%;
 }
 
-.protal-swiper .swiper-slide .world-robot-meeting {
+.protal-swiper .swiper-slide.world-robot-meeting {
     background: url("../img/index/world-robot-meeting.jpg") no-repeat center;
     background-size: 100% 100%;
 }
