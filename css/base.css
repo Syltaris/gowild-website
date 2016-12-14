@@ -501,13 +501,13 @@ footer .footer-col ul {
 
 footer .footer-col ul li {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     padding: 5px 0;
 }
 
 footer .footer-col ul li.title {
     font-size: 18px;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
 }
 
 footer .footer-col ul li:not(.title) a {
