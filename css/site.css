@@ -542,7 +542,7 @@ ul.payment-list {
     }
 }
 
-/* slides are loaded here */
+/* loaded slides are here */
 
 .protal-swiper .swiper-slide.v01 .gongzi {
     -webkit-animation: fluctuating 3s;
@@ -566,7 +566,7 @@ ul.payment-list {
 }
 
 .protal-swiper .swiper-slide.v02 {
-    background: url('../img/index/v2.png') no-repeat;
+    background: url("../img/index/v2.png") no-repeat;
     background-size: cover;
     color: #fff;
 }
@@ -597,14 +597,14 @@ ul.payment-list {
 }
 
 .protal-swiper .swiper-slide.v-plus {
-    background: url('../img/plus/index-banner.png') no-repeat;
+    background: url("../img/plus/index-banner.png") no-repeat;
     background-size: cover;
     color: #fff;
 }
 
 @media screen and (min-width: 1860px) {
     .protal-swiper .swiper-slide.v-plus {
-        background: url('../img/plus/index-banner@1920.png') no-repeat;
+        background: url("../img/plus/index-banner@1920.png") no-repeat;
     }
 }
 
@@ -625,7 +625,7 @@ ul.payment-list {
 
 /**=========��Ȫ========**/
 .protal-swiper .swiper-slide.v04 {
-    background: url('../img/index/yuquan.png') no-repeat center;
+    background: url("../img/index/yuquan.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -645,14 +645,14 @@ ul.payment-list {
 }
 
 .protal-swiper .swiper-slide.v05 .article-table-cell.left {
-    background: url('../img/index/v05-left.png') no-repeat center;
+    background: url("../img/index/v05-left.png") no-repeat center;
 
     -webkit-background-size: contain;
     background-size: contain;
 }
 
 .protal-swiper .swiper-slide.v05 .article-table-cell.right {
-    background: url('../img/index/v05-right.png') no-repeat center;
+    background: url("../img/index/v05-right.png") no-repeat center;
     background-size: initial;
 }
 
@@ -676,19 +676,19 @@ ul.payment-list {
  * gwais banner
  */
 .protal-swiper .swiper-slide.gwais-01 {
-    background: url('../img/index/gwais-banner1.png') no-repeat center;
+    background: url("../img/index/gwais-banner1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
 }
 
 .protal-swiper .swiper-slide.gwais-02 {
-    background: url('../img/index/gwais-banner2.png') no-repeat center;
+    background: url("../img/index/gwais-banner2.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
 }
 
 .protal-swiper .about-ai {
-    background: url('../img/index/about-ai/1.jpg') no-repeat center;
+    background: url("../img/index/about-ai/1.jpg") no-repeat center;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
@@ -702,7 +702,7 @@ ul.payment-list {
 }
 
 .protal-swiper .swiper-slide.v-lovers .article-table-cell.left {
-    background: url('../img/index/lovers-left.png') no-repeat center;
+    background: url("../img/index/lovers-left.png") no-repeat center;
 
     -webkit-background-size: cover;
     background-size: cover;
@@ -716,17 +716,17 @@ ul.payment-list {
  * zhao wu jie
  ***************************************************************/
 .protal-swiper .swiper-slide .zaowujie {
-    background: url('../img/index/holo-era.png') no-repeat center;
+    background: url("../img/index/holo-era.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 .protal-swiper .swiper-slide .hit-holoera {
-    background: url('../img/index/banner-holoera-hit.jpg') no-repeat center;
+    background: url("../img/index/banner-holoera-hit.jpg") no-repeat center;
     background-size: 100% 100%;
 }
 
 .protal-swiper .swiper-slide .world-robot-meeting {
-    background: url('../img/index/world-robot-meeting.jpg') no-repeat center;
+    background: url("../img/index/world-robot-meeting.jpg") no-repeat center;
     background-size: 100% 100%;
 }
 
