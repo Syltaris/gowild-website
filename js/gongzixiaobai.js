@@ -39,8 +39,8 @@ var featureSwiper = new Swiper('#featureSwiper', {
         }
         else if (swiper.activeIndex == 3) {
             var icons = $(swiper.slides[swiper.activeIndex]).find('.icon-group > .icon');
-            var middleIndex = parseInt(icons.length / 2),
-                iconWidth = $(icons[0]).innerWidth();
+            var middleIndex = parseInt(icons.length / 2);
+            var iconWidth = $(icons[0]).innerWidth();
             icons.each(function (i, iconEle) {
                 var transformX = (i - middleIndex) * iconWidth;
 

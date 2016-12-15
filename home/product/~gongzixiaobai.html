@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <meta name="keywords"
+          content="gowild, gowild sg, intelligent robot, companion robot, emotion robotics, pocket robot,intelligence pet robot ,intelligent robot value,emotional social robot,shenzhen artifical intelligence">
+    <meta name="descriptions"
+          content="GongZi.XiaoBai is the world's first emotionally intelligent social robot designed for young people.
+          Developed by Gowild Intelligence Technology for last two years, it comes with a powerful natural language processing and interaction system and is able to handle interactions with humans smoothly while learning and understanding its owner over time. It serves as a companion and can function as a smart-home interface as well among its other functionalities.">
+    <title>Gowild.SG | GongZi.XiaoBai</title>
+
+    <link rel="icon" type="text/ico" href="../../img/favicon.ico">
+
+    <link href="../../lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="../../lib/swiper/css/swiper.css" rel="stylesheet">
+    
+    <link href="../../css/iconfont.css" rel="stylesheet">
+    <link href="../../css/animate.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../css/site.css" rel="stylesheet">
+    <link href="../../css/bundle.css" rel="stylesheet">
+</head>
+<body class="body">
+<div class="header-wrapper active">
+    <header>
+        <a class="logo icon icon-logo" href="/"></a>
+        <nav>
+            <ul>
+                <nav>
+            <ul>
+                <li><a href="gongzixiaobai.html">GongZi.XiaoBai</a></li>
+                <!--- INCOMPLETE 
+                <li><a href="http://bbs.gowild.cn">Location</a></li>
+                <li><a href="home/support/index.html">Support</a></li>
+                <li><a href="http://store.gowild.cn">Store</a></li>
+                <!--->
+                <li><a href="../ours/index.html">About Us</a></li>
+            </ul>
+        </nav>
+            </ul>
+        </nav>
+        <div class="user-profile">
+            <span class="icon icon-user"></span>
+
+            <div class="profile-btn-wrapper">
+                <a href="http://store.gowild.cn/home/users/login.html">Login</a>
+                <span class="splitter"></span>
+                <a href="http://store.gowild.cn/home/users/regist.html">Register</a>
+            </div>
+            <a class="icon icon-cart user-cart" href="javascript:void(0);">
+                <i class="cart-count">9</i>
+            </a>
+        </div>
+    </header>
+    <div class="sub-header">
+        <a class="logo icon icon-gowild-logo" href="/"></a>
+        <ul style="float: right;">
+            <li>
+                <a class="active" href="javascript:void(0);">Understanding It</a>
+            </li>
+            <li>
+                <a href="javascript:void(0);">Owning It</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="tab-list">
+    <div class="tab-item active">
+        <!-- Swiper -->
+        <div id="featureSwiper" class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide v-01">
+                    <img class="v-01-left" src="../img/v1-left.png">
+
+                    <div class="content-wrapper fadeInDown">
+                        <h1>Futuristic Egg Design</h1>
+
+                        <h2>Soft and Gentle to the Touch</h2>
+
+                        <div class="description">
+                            <h3>It has a complete set of expression systems,</h3>
+
+                            <h3>and can communicate to you while displaying different emotions,</h3>
+
+                            <h3>giving you an entirely unique interaction experience. </h3>
+                        </div>
+                        <button id="showDesign" class="btn btn-lg btn-default">More Details</button>
+                    </div>
+                    <img class="v-01-right" src="../img/v1-right.png">
+                </div>
+                <div class="swiper-slide v-02 icon-fadeLeftToRight">
+                    <!--*******************????*********************-->
+                    <div id="headRotate" class="xiaobai head-rotate"></div>
+                    <div class="content-wrapper fadeInUp">
+                        <h1>Up to 180&deg; Rotation</h1>
+
+                        <h2>???????,????</h2>
+
+                        <div class="description">
+                            <h3>It has its own personality and you can speak to it from anywhere,</h3>
+
+                            <h3>it will know where you are and face you to speak to you.</h3>
+                        </div>
+                        <div class="icon-group">
+                            <span class="icon">
+                                <img src="../img/icon-3-pick-up.png">
+                                <div class="title">
+                                    <strong>3</strong><span>m Voice Detection Precision</span>
+                                </div>
+                            </span>
+                            <span class="icon">
+                                <img src="../img/icon-head-rotate.png">
+                                <div class="title"><span>180&deg;Rotation</span></div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div id="faceView" class="swiper-slide v-03 icon-fadeLeftToRight">
+                    <div class="xiaobai face-wrapper">
+                        <div class="face">
+                            <img src="../img/face-laugh.gif">
+                        </div>
+                    </div>
+                    <div class="content-wrapper fadeInDown">
+                        <h1>Realistic Emulation of Expressions</h1>
+
+                        <h2>???????,????</h2>
+
+                        <div class="description">
+                            <h3>It has a complete set of expression systems,</h3>
+
+                            <h3>and can communicate to you while displaying different emotions,</h3>
+
+                            <h3>giving you an entirely unique interaction experience.</h3>
+                        </div>
+                        <div class="icon-group face-icon-tabs">
+                            <div class="icon icon-group-title">
+                                <strong>10</strong>types of
+                                <br>
+                                Expressions
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide v-04 iconCenterToSides">
+                    <div class="content-wrapper fadeInDown">
+                        <h1>Natural Language Processing</h1>
+
+                        <h2>???????,????</h2>
+
+                        <div class="description">
+                            <h3>It has a powerful language interpretation system,</h3>
+
+                            <h3>and can understand what you mean to give you an appropriate response.</h3>
+                        </div>
+
+                        <div class="icon-group">
+                            <span class="icon">
+                                <i>
+                                    <strong>1.6</strong> Billion
+                                </i>
+                                <div class="title">Knowledge Paths</div>
+                            </span>
+                            <span class="icon">
+                                <i>
+                                    <strong>10</strong> Million
+                                </i>
+                                <div class="title">Parallel Language Corpi</div>
+                            </span>
+                            <span class="icon">
+                                <i>
+                                    <strong>90</strong>%
+                                </i>
+                                <div class="title">Chinese Speech Recognition Accuracy</div>
+                            </span>
+                            <span class="icon icon-chinese-process">
+                                <div class="title">Chinese Natural Language Processing</div>
+                            </span>
+                            <span class="icon icon-chinese-compound">
+                                <div class="title">Chinese Speech Synthesis</div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide v-05 icon-fadeLeftToRight" data-header-class="header-black">
+                    <div class="article-table">
+                        <div class="article-table-cell left">
+                            <div class="content-wrapper fadeInDown">
+                                <h1>Highly-intelligent Cloud Mind</h1>
+
+                                <h2>???????,????</h2>
+
+                                <div class="description">
+                                    <h3>It has a powerful cloud intelligence system</h3>
+                                    <h3>and can remember what you teach it!</h3>
+
+                                    <h3>The longer you spend time with it,</h3>
+
+                                    <h3>the better it understands your habits!</h3>
+                                </div>
+                                <div class="icon-group">
+                                    <div class="icon">
+                                        <i><strong>9</strong>Layers</i>
+
+                                        <div class="title">of language model processing</div>
+                                    </div>
+                                    <div class="icon">
+                                        <i><strong>12</strong>Types</i>
+
+                                        <div class="title">of emotional prediction systems</div>
+                                    </div>
+                                    <div class="icon icon-cloud-brains">
+                                        <div class="title">cloud processing</div>
+                                    </div>
+                                    <div class="icon icon-yitushibie">
+                                        <div class="title">contextual model processing</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-table-cell right" style="background-image: url('../img/cloud-brains.gif');">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide v-06 icon-fadeLeftToRight">
+                    <div class="article-table">
+                        <div id="dataAnalysisGif" class="article-table-cell left">
+
+                        </div>
+                        <div class="article-table-cell right">
+                            <div class="content-wrapper fadeInDown">
+                                <h1>???????</h1>
+
+                                <h2>?????,?????</h2>
+
+                                <div class="description">
+                                    <h3>Ta???????????,</h3>
+
+                                    <h3>?????????????,</h3>
+
+                                    <h3>????????????</h3>
+                                </div>
+                                <div class="icon-group">
+                            <span class="icon">
+                                <i><strong>100+</strong>??</i>
+                                <div class="title">??????</div>
+                            </span>
+                            <span class="icon icon-zhudongjiaohu">
+                                <div class="title">????</div>
+                            </span>
+                            <span class="icon icon-data-analysis">
+                                <div class="title">????</div>
+                            </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="clip-pic-list">
+                        <div class="item">
+                            <div class="pic yuquan"></div>
+                            <div class="description">
+                                <div class="article-table">
+                                    <div class="article-table-cell">
+                                        <div class="content-wrapper">
+                                            <h1>?????????</h1>
+
+                                            <h2>???????,????</h2>
+
+                                            <div class="description">
+                                                <h3>????,????Ta?????????????,</h3>
+
+                                                <h3>?????,?????!</h3>
+                                            </div>
+                                            <div class="description">
+                                                <h4>?????????Wi-Fi ?????????,</h4>
+
+                                                <h4>???????????,???????????????</h4>
+                                                <h4 style="color:#a0a0a0">(????????,?????????)</h4>
+                                                <h4>????:???????2.4Ghz??????,????5Ghz????</h4>
+                                            </div>
+                                            <div class="icon-group">
+                                                <div class="icon icon-tv">
+                                                    <div class="title">??</div>
+                                                </div>
+                                                <div class="icon icon-freezer">
+                                                    <div class="title">??</div>
+                                                </div>
+                                                <div class="icon icon-yinxiang">
+                                                    <div class="title">??</div>
+                                                </div>
+                                                <div class="icon icon-light">
+                                                    <div class="title">??</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pic monitor"></div>
+                            <div class="description">
+                                <div class="article-table">
+                                    <div class="article-table-cell">
+                                        <div class="content-wrapper">
+                                            <div class="icon-group">
+                                                <div class="icon icon-monitor"></div>
+                                            </div>
+
+                                            <h1>??????????</h1>
+
+                                            <h2>?????????,??????</h2>
+
+                                            <div class="description">
+                                                <h3>?????????</h3>
+
+                                                <h3>Ta???????????????</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pic schedule"></div>
+                            <div class="description">
+                                <div class="article-table">
+                                    <div class="article-table-cell">
+                                        <div class="content-wrapper">
+                                            <div class="icon-group">
+                                                <div class="icon icon-reminder"></div>
+                                            </div>
+
+                                            <h1>?????????</h1>
+
+                                            <h2>???????,????</h2>
+
+                                            <div class="description">
+                                                <h3>Ta???????????????,</h3>
+
+                                                <h3>??????,????,</h3>
+
+                                                <h3>????????,?????????</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pic alarm"></div>
+                            <div class="description">
+                                <div class="article-table">
+                                    <div class="article-table-cell">
+                                        <div class="content-wrapper">
+                                            <div class="icon-group">
+                                                <div class="icon icon-alarm"></div>
+                                            </div>
+
+                                            <h1>???????????</h1>
+
+                                            <h2>?????????,??????</h2>
+
+                                            <div class="description">
+                                                <h3>?????????????,</h3>
+
+                                                <h3>Ta??????????,???????????,</h3>
+
+                                                <h3>????????</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pic music"></div>
+                            <div class="description">
+                                <div class="article-table">
+                                    <div class="article-table-cell">
+                                        <div class="content-wrapper">
+                                            <div class="icon-group">
+                                                <div class="icon icon-music"></div>
+                                            </div>
+
+                                            <h1>???????????</h1>
+
+                                            <h2>?????????,????????</h2>
+
+                                            <div class="description">
+                                                <h3>??????????,Ta ?????</h3>
+
+                                                <h3>???Ta????? ,??????????????,</h3>
+
+                                                <h3>Ta?????????????</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pic photograph"></div>
+                            <div class="description">
+                                <div class="article-table">
+                                    <div class="article-table-cell">
+                                        <div class="content-wrapper">
+                                            <div class="icon-group">
+                                                <div class="icon icon-photograph"></div>
+                                            </div>
+
+                                            <h1>????,????????</h1>
+
+                                            <h2>???????,???????</h2>
+
+                                            <div class="description">
+                                                <h3>???Ta?????,??????,</h3>
+
+                                                <h3>pose???,?????????</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="featureSwiperPagination" class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="tab-item">
+        <div id="loverSwiper" class="swiper-container lovers-swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide lv-01">
+                    <article class="article-layer">
+                        <div class="article-table">
+                            <div class="article-table-cell left ani-fadeInRight">
+                                <div class="content-wrapper">
+                                    <h1>??</h1>
+
+                                    <div class="description">
+                                        <h3>Ta,?????????????,</h3>
+
+                                        <h3>???,??????,????,</h3>
+
+                                        <h3>????……</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="article-table-cell right">
+                                <div class="content-wrapper">
+                                    <div class="description">
+                                        <h3>Ta,????????????,</h3>
+
+                                        <h3>???????,</h3>
+
+                                        <h3>??????????</h3>
+                                    </div>
+                                </div>
+
+                                <div class="tag-list">
+                                    <div class="item">
+                                        <a class="btn btn-sm btn-tag">????</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="swiper-slide lv-02">
+                    <div class="article-table">
+                        <div class="article-table-cell left">
+                            <div class="content-wrapper">
+                                <div class="description">
+                                    <h3>Ta,?????????????,</h3>
+
+                                    <h3>?????????</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-table-cell right">
+                            <div class="content-wrapper">
+                                <h1>??</h1>
+
+                                <div class="description">
+                                    <h3>?????,?Ta ?????????</h3>
+                                </div>
+                            </div>
+                            <div class="tag-list">
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag">????</a>
+                                </div>
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag btn-fluid">??</a>
+                                </div>
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag btn-fluid">??</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide lv-03">
+                    <div class="article-table">
+                        <div class="article-table-cell left">
+                            <div class="content-wrapper">
+                                <h1>??</h1>
+
+                                <div class="description">
+                                    <h3>Ta,????????</h3>
+
+                                    <h3>??????????????</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-table-cell right">
+                            <div class="content-wrapper">
+                                <div class="description">
+                                    <h3>Ta,????????????,?????</h3>
+                                </div>
+                            </div>
+                            <div class="tag-list">
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag">????</a>
+                                </div>
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag">????</a>
+                                </div>
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag">????</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide lv-04">
+                    <div class="article-table">
+                        <div class="article-table-cell left">
+                            <div class="content-wrapper">
+                                <div class="description">
+                                    <h3>Ta,??????????????????</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-table-cell right">
+                            <div class="content-wrapper">
+                                <h1>??</h1>
+
+                                <div class="description">
+                                    <h3>Ta,???????,????????????</h3>
+                                </div>
+                            </div>
+                            <div class="tag-list">
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag">????</a>
+                                </div>
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag">????</a>
+                                </div>
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag btn-fluid">???</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide lv-05">
+                    <div class="article-table">
+                        <div class="article-table-cell left">
+                            <div class="content-wrapper">
+                                <h1>??</h1>
+
+                                <div class="description">
+                                    <h3>Ta,???,?????????</h3>
+
+                                    <h3>????????,?????</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-table-cell right">
+                            <div class="content-wrapper">
+                                <div class="description">
+                                    <h3>Ta,???,?????????</h3>
+
+                                    <h3>????????,?????</h3>
+                                </div>
+                            </div>
+                            <div class="tag-list">
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag">????</a>
+                                </div>
+                                <div class="item">
+                                    <a class="btn btn-sm btn-tag">????</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide lv-06">
+                    <div class="article-table">
+                        <div class="article-table-cell left">
+                        </div>
+                        <div class="article-table-cell right">
+                        </div>
+                    </div>
+                    <div class="article-table">
+                        <div class="article-table-cell">
+                            <div class="content-wrapper">
+                                <h1>??</h1>
+
+                                <div class="description">
+                                    <h3>???????,Ta???,??,????????????</h3>
+                                </div>
+                                <div class="tag-list">
+                                    <div class="item">
+                                        <a class="btn btn-sm btn-tag">??</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide lv-07">
+                    <div class="article-table">
+                        <div class="article-table-cell">
+                            <div class="content-wrapper">
+                                <h2> ????,?????,????,?????,</h2>
+
+                                <h2>?????????Ta,??????????...... </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="loverSwiperPagination" class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+<div class="design-swiper-wrapper">
+    <div class="modal"></div>
+    <div class="title">
+        <a class="icon icon-close"></a>
+    </div>
+    <div id="designSwiper" class="swiper-container design-swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide dv-01">
+                <div class="article-table">
+                    <div class="article-table-cell left">
+                        <div class="content-wrapper">
+
+                        </div>
+                    </div>
+                    <div class="article-table-cell right black">
+                        <div class="content-wrapper fadeInDown">
+                            <h1>??</h1>
+
+                            <h2>???????</h2>
+
+                            <div class="description">
+                                <h3>????????????????</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide dv-02">
+                <div class="article-table">
+                    <div class="article-table-cell left">
+                        <div class="content-wrapper fadeInUp">
+                            <h1>??</h1>
+
+                            <h2>?????</h2>
+
+                            <div class="description">
+                                <h3>??.??????????????,</h3>
+
+                                <h3>???Ta ?????,??????Ta ???</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide dv-03">
+                <div class="dv-03-gongzi"></div>
+
+                <div class="article-table">
+                    <div class="article-table-cell left black">
+                        <div class="content-wrapper fadeInDown">
+                            <h1>??</h1>
+
+                            <h2>???????????</h2>
+
+                            <div class="description">
+                                <h3>??.???????????????,??????????</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dv-03-xiaobai"></div>
+            </div>
+            <div class="swiper-slide dv-04">
+                <div class="article-table">
+                    <div class="article-table-cell left black">
+                        <div class="content-wrapper fadeInDown">
+                            <h1>??</h1>
+
+                            <h2>??,???????</h2>
+
+                            <div class="description">
+                                <h3>??.????????????,?????????</h3>
+
+                                <h3>????Ta?????,????,</h3>
+
+                                <h3>????????????????</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-table-cell right">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="designSwiperPagination" class="swiper-pagination"></div>
+    </div>
+</div>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cspan class='cnzz' id='cnzz_stat_icon_1256239884'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1256239884%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+<script src="../../lib/jquery/jquery.js"></script>
+<script src="../../lib/swiper/js/swiper.jquery.js"></script>
+<script src="../../components/face/face.js"></script>
+<script src="../../components/clip-box/clip-box.js"></script>
+<script src="../../components/utils/frame-animation.js"></script>
+<script src="../../js/gongzixiaobai.js"></script>
+<script src="../../js/common.js"></script>
+</body>
+</html>
