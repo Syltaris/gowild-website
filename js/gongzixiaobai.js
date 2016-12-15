@@ -4,7 +4,7 @@
 
 var centerToBothSide = {};
 var loverSwiper = new Swiper('#loverSwiper', {
-    pagination: '#loverSwiperPagenation',
+    pagination: '#loverSwiperPagination',
     paginationClickable: true,
     direction: 'vertical',
     mousewheelControl: true,
@@ -27,22 +27,17 @@ var loverSwiper = new Swiper('#loverSwiper', {
     }
 });
 var featureSwiper = new Swiper('#featureSwiper', {
-    pagination: '#featureSwiperPagenation',
+    pagination: '#featureSwiperPagination',
     paginationClickable: true,
     direction: 'vertical',
     mousewheelControl: true,
     speed: 1800,
     loop: false,
     onSlideChangeEnd: function (swiper) {
-        if (swiper.activeIndex == 5) {
-            var gifWrapper = $(swiper.slides[swiper.activeIndex]).find('#dataAnalysisGif');
-
-            gifWrapper.css('background-image', "url('../img/data-analysis.gif')");
-        }
-        else if (swiper.activeIndex == 1) {
+        if (swiper.activeIndex == 1) {
             $(swiper.slides[swiper.activeIndex]).find('#headRotate').css('background-image', "url('../img/head-rotate.gif')");
         }
-        if (swiper.activeIndex == 3) {
+        else if (swiper.activeIndex == 3) {
             var icons = $(swiper.slides[swiper.activeIndex]).find('.icon-group > .icon');
             var middleIndex = parseInt(icons.length / 2),
                 iconWidth = $(icons[0]).innerWidth();
@@ -51,6 +46,11 @@ var featureSwiper = new Swiper('#featureSwiper', {
 
                 $(iconEle).css('transform', 'translate3d(' + transformX + 'px,0px,0px)');
             })
+        }
+        else if (swiper.activeIndex == 5) {
+            var gifWrapper = $(swiper.slides[swiper.activeIndex]).find('#dataAnalysisGif');
+
+            gifWrapper.css('background-image', "url('../img/data-analysis.gif')");
         }
     },
     onInit: function (_self) {
@@ -123,7 +123,7 @@ $('#showDesign').click(function () {
     setTimeout(function () {
 
         var designSwiper = new Swiper('#designSwiper', {
-            pagination: '#designSwiperPagenation',
+            pagination: '#designSwiperPagination',
             paginationClickable: true,
             direction: 'vertical',
             mousewheelControl: true,
