@@ -4,7 +4,7 @@ html, body {
 }
 
 h1 {
-    font-size: 37.5px;
+    font-size: 36px;
     color: #646464;
 }
 
@@ -23,7 +23,7 @@ h3 {
 }
 
 h4 {
-    font-size: 10.5px;
+    font-size: 10px;
 }
 
 h5 {
@@ -61,7 +61,7 @@ h6 {
 }
 
 /*.swiper-slide.swiper-slide-active {*/
-/*z-index: 100;*/
+/*    z-index: 100;*/
 /*}*/
 
 .swiper-pagination-bullet {
@@ -82,7 +82,7 @@ header {
 
 .content-wrapper {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .content-wrapper h1 {
@@ -126,7 +126,7 @@ header {
     line-height: 50px;
     width: 100%;
 
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .sub-header .logo {
@@ -160,7 +160,7 @@ header {
 
     list-style-type: none;
 
-    width: 190px;
+    width: 250px;
     display: inline-block;
 
     -webkit-transition: margin-left 1s;
@@ -173,14 +173,14 @@ header {
 .header-wrapper.active .sub-header ul,
 .header-wrapper:active .sub-header ul,
 .header-wrapper:hover .sub-header ul {
-    margin-left: 24.4%;
+    margin-left: 23%;
     border-top: 1px solid #C2C2C2;
     text-align: center;
 }
 
 .sub-header ul li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .sub-header ul li a,
@@ -372,6 +372,12 @@ header {
 
 .v-05 .content-wrapper .icon-group {
     width: 65%;
+}
+
+.v-05 .content-wrapper .icon-group .title {
+   width: 80%;
+   text-align: center;
+   white-space: normal;
 }
 
 .v-05 .right img {
@@ -683,7 +689,7 @@ header {
 }
 
 .design-swiper-wrapper.active .swiper-container {
-    z-index: 20000;
+    z-index: 2000;
 }
 
 /**=======Title �͹رհ�ť==========**/
