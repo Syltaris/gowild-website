@@ -33,6 +33,9 @@ var featureSwiper = new Swiper('#featureSwiper', {
     mousewheelControl: true,
     speed: 1800,
     loop: false,
+    onSlideChangeStart: function (swiper) {
+    	 $(swiper.slides[swiper.activeIndex-1]).removeClass('animated');
+    },
     onSlideChangeEnd: function (swiper) {
         if (swiper.activeIndex == 1) {
             $(swiper.slides[swiper.activeIndex]).find('#headRotate').css('background-image', "url('../img/head-rotate.gif')");
@@ -52,6 +55,7 @@ var featureSwiper = new Swiper('#featureSwiper', {
 
             gifWrapper.css('background-image', "url('../img/data-analysis.gif')");
         }
+        $(swiper.slides[swiper.activeIndex]).addClass('animated');
     },
     onInit: function (_self) {
         setTimeout(function () {
