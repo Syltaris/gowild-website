@@ -1,0 +1,146 @@
+/**==========��transition==============*/
+.swiper-slide .content-wrapper h1 {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
+    transition-delay: .2s;
+}
+
+.swiper-slide .content-wrapper h2 {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.swiper-slide .content-wrapper h3 {
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+}
+.swiper-slide .content-wrapper > .description {
+    -webkit-transition: all 1.8s;
+    -moz-transition: all 1.8s;
+    -ms-transition: all 1.8s;
+    -o-transition: all 1.8s;
+    transition: all 1.8s;
+}
+
+/**
+*����fadeInDown
+**********************************************************/
+.fadeInDown h1,
+.fadeInDown h2,
+.fadeInDown h3,
+.fadeInDown .content-wrapper > .description,
+.fadeInDown.content-wrapper > .description {
+    opacity: 0;
+
+    -webkit-transform: translate3d(0px, -80px, 0px);
+    -moz-transform: translate3d(0px, -80px, 0px);
+    -ms-transform: translate3d(0px, -80px, 0px);
+    -o-transform: translate3d(0px, -80px, 0px);
+    transform: translate3d(0px, -80px, 0px);
+}
+
+/**
+*����fadeInUp
+************************************************************/
+.fadeInUp .content-wrapper h1,
+.fadeInUp.content-wrapper h1,
+.fadeInUp .content-wrapper h2,
+.fadeInUp.content-wrapper h2,
+.fadeInUp .content-wrapper h3,
+.fadeInUp.content-wrapper h3,
+.fadeInUp .content-wrapper > .description,
+.fadeInUp.content-wrapper > .description {
+    opacity: 0;
+
+    -webkit-transform: translate3d(0px, 100%, 0px);
+    -moz-transform: translate3d(0px, 100%, 0px);
+    -ms-transform: translate3d(0px, 100%, 0px);
+    -o-transform: translate3d(0px, 100%, 0px);
+    transform: translate3d(0px, 100%, 0px);
+}
+
+/**
+*
+*********************************************************/
+.animated .content-wrapper h1,
+.animated .content-wrapper h2,
+.animated .content-wrapper h3,
+.animated .content-wrapper > .description,
+.animated .content-wrapper > .description {
+    opacity: 1 !important;
+
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+/**
+*icon group animation  ͼ����Ķ���
+*****************************************************/
+.swiper-slide .icon-group .icon, .swiper-slide.icon-group .icon {
+    -webkit-transition: transform 1s, opacity 1s;
+    -moz-transition: transform 1s, opacity 1s;
+    -ms-transition: transform 1s, opacity 1s;
+    -o-transition: transform 1s, opacity 1s;
+    transition: transform 1s, opacity 1s;
+}
+
+.icon-fadeLeftToRight {
+
+}
+
+.icon-fadeLeftToRight .icon {
+    opacity: 0;
+
+    -webkit-transform: translate3d(-100%, 0px, 0px);
+    -moz-transform: translate3d(-100%, 0px, 0px);
+    -ms-transform: translate3d(-100%, 0px, 0px);
+    -o-transform: translate3d(-100%, 0px, 0px);
+    transform: translate3d(-100%, 0px, 0px);
+}
+
+.swiper-slide-active .icon-fadeLeftToRight .icon,
+.swiper-slide-active.icon-fadeLeftToRight .icon {
+    opacity: 1;
+
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.swiper-slide-active .icon-fadeLeftToRight .icon-group .icon:nth-child(1), .swiper-slide-active.icon-fadeLeftToRight .icon-group .icon:nth-child(1) {
+    transition-delay: 1.3s;
+}
+
+.swiper-slide-active .icon-fadeLeftToRight .icon-group .icon:nth-child(2), .swiper-slide-active.icon-fadeLeftToRight .icon-group .icon:nth-child(2) {
+    transition-delay: 1.6s;
+}
+
+.swiper-slide-active .icon-fadeLeftToRight .icon-group .icon:nth-child(3), .swiper-slide-active.icon-fadeLeftToRight .icon-group .icon:nth-child(3) {
+    transition-delay: 1.9s;
+}
+
+.swiper-slide-active .icon-fadeLeftToRight .icon-group .icon:nth-child(4), .swiper-slide-active.icon-fadeLeftToRight .icon-group .icon:nth-child(4) {
+    transition-delay: 2.3s;
+}
+
+.swiper-slide-active .icon-fadeLeftToRight .icon-group .icon:nth-child(4), .swiper-slide-active.icon-fadeLeftToRight .icon-group .icon:nth-child(5) {
+    transition-delay: 2.7s;
+}
+
+.swiper-slide-active .icon-fadeLeftToRight .icon-group .icon:nth-child(4), .swiper-slide-active.icon-fadeLeftToRight .icon-group .icon:nth-child(6) {
+    transition-delay: 3s;
+}
