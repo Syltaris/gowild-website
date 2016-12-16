@@ -10,7 +10,7 @@ var loverSwiper = new Swiper('#loverSwiper', {
     mousewheelControl: true,
     loop: false,
     speed: 1000,
-    /* note: rough fix of animated not removing and adding properly */
+    /* NOTE: rough fix of animated not removing and adding properly */
     onSlideChangeStart: function (swiper) {
     	 $prevSlide = $(swiper.slides[swiper.activeIndex-1]);
     	 
@@ -45,7 +45,7 @@ var featureSwiper = new Swiper('#featureSwiper', {
     mousewheelControl: true,
     speed: 1800,
     loop: false,
-    /* note: rough fix of animated not removing and adding properly */
+    /* NOTE: rough fix of animated not removing and adding properly */
     onSlideChangeStart: function (swiper) {
     	 $prevSlide = $(swiper.slides[swiper.activeIndex-1]);
     	 
