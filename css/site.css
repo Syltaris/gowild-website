@@ -869,6 +869,7 @@ ul.payment-list {
 }
 
 .hot-qa-container .qa-col {
+    width: 50%;
     flex: 1;
     border-right: 1px solid #dbdbdb;
     text-align: center;
@@ -884,8 +885,8 @@ ul.payment-list {
 }
 
 .hot-qa-container .qa-col:last-child ul {
-    width: 100px;
-    text-align: center;
+    //width: 100px;
+    text-align: right;
     display: inline-block;
 }
 
