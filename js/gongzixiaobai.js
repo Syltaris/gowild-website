@@ -15,7 +15,7 @@ var loverSwiper = new Swiper('#loverSwiper', {
     	 $prevSlide = $(swiper.slides[swiper.activeIndex-1]);
     	 
     	 if($prevSlide.hasClass('animated')) {
-			$prevSlide.removeClass('animated');
+    	 	$prevSlide.removeClass('animated');
     	 } else {
     	 	$(swiper.slides[swiper.activeIndex+1]).removeClass('animated');
     	 }
@@ -54,7 +54,6 @@ var featureSwiper = new Swiper('#featureSwiper', {
     	 } else {
     	 	$(swiper.slides[swiper.activeIndex+1]).removeClass('animated');
     	 }
-
     },
     onSlideChangeEnd: function (swiper) {
         if (swiper.activeIndex == 1) {

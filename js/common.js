@@ -22,7 +22,6 @@ Common.prototype = {
         document.body.addEventListener('mousewheel', function (e) {
             if (e.wheelDelta > 0) {
                 if (_self.canScroll(_self.lastTopScrollTimeStamp, e.timeStamp)) {
-                    //���Ϲ���
                     $header.addClass('active');
                     setTimeout(function () {
                         $header.removeClass('active');
