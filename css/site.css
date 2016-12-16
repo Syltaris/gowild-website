@@ -920,13 +920,14 @@ ul.payment-list {
 }
 
 .panel.tech-panel .panel-header > .title {
-    width: 14%;
-    margin-left: 0 !important;
+    width: 28%;
+    margin-left: 10% !important;
 }
 
 .tech-panel .panel-content .layout-west {
-    width: 14%;
+    width: 18%;
     text-align: center;
+    margin-left: -14%;
 }
 
 .tech-panel .panel-content .layout-west ul {
@@ -956,6 +957,7 @@ ul.payment-list {
 .tech-panel .panel-content .layout-center {
     width: 86%;
     font-size: 12px;
+    margin-left: 10%;
 }
 
 .tech-panel .panel-content .layout-center .view-container {
