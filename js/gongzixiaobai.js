@@ -10,6 +10,17 @@ var loverSwiper = new Swiper('#loverSwiper', {
     mousewheelControl: true,
     loop: false,
     speed: 1000,
+    /* note: rough fix of animated not removing and adding properly */
+    onSlideChangeStart: function (swiper) {
+    	 $prevSlide = $(swiper.slides[swiper.activeIndex-1]);
+    	 
+    	 if($prevSlide.hasClass('animated')) {
+			$prevSlide.removeClass('animated');
+    	 } else {
+    	 	$(swiper.slides[swiper.activeIndex+1]).removeClass('animated');
+    	 }
+
+    },
     onSlideChangeEnd: function (swiper) {
         var headerClass = $(swiper.slides[swiper.activeIndex]).attr('data-header-class') || '';
         if (this.headerClass != '') {
@@ -19,6 +30,7 @@ var loverSwiper = new Swiper('#loverSwiper', {
             $('.header-wrapper').addClass(headerClass);
             this.headerClass = headerClass;
         }
+        $(swiper.slides[swiper.activeIndex]).addClass('animated');
     },
     onInit: function (_self) {
         setTimeout(function () {
@@ -33,8 +45,16 @@ var featureSwiper = new Swiper('#featureSwiper', {
     mousewheelControl: true,
     speed: 1800,
     loop: false,
+    /* note: rough fix of animated not removing and adding properly */
     onSlideChangeStart: function (swiper) {
-    	 $(swiper.slides[swiper.activeIndex-1]).removeClass('animated');
+    	 $prevSlide = $(swiper.slides[swiper.activeIndex-1]);
+    	 
+    	 if($prevSlide.hasClass('animated')) {
+			$prevSlide.removeClass('animated');
+    	 } else {
+    	 	$(swiper.slides[swiper.activeIndex+1]).removeClass('animated');
+    	 }
+
     },
     onSlideChangeEnd: function (swiper) {
         if (swiper.activeIndex == 1) {
