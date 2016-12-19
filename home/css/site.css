@@ -221,6 +221,11 @@ header {
     opacity: 1;
 }
 
+/* moves all icons down a bit to close gap btw text */
+.icon-group .icon i {
+    transform: translate3d(0px, 14px, 0px);
+}
+
 /**
 *v-01  egg-design-page
 *******************************************************/
@@ -302,6 +307,21 @@ header {
 *v-04  nlp-page
 *******************************************************/
 
+.iconCenterToSides .icon-group .icon {
+    opacity: 0;
+
+    -webkit-transition: transform 1s, opacity 1s;
+    -moz-transition: transform 1s, opacity 1s;
+    -ms-transition: transform 1s, opacity 1s;
+    -o-transition: transform 1s, opacity 1s;
+    transition: transform 1s, opacity 1s;
+}
+
+.iconCenterToSides.animated .icon-group .icon {
+    opacity: 1;
+}
+
+
 .v-04 {
     background: #2E2D2D;
 }
@@ -352,24 +372,6 @@ header {
     transition: background-color 1s;
 }
 
-.icon-group .icon i {
-    transform: translate3d(0px, 14px, 0px);
-}
-
-.iconCenterToSides .icon-group .icon {
-    opacity: 0;
-
-    -webkit-transition: transform 1s, opacity 1s;
-    -moz-transition: transform 1s, opacity 1s;
-    -ms-transition: transform 1s, opacity 1s;
-    -o-transition: transform 1s, opacity 1s;
-    transition: transform 1s, opacity 1s;
-}
-
-.iconCenterToSides.animated .icon-group .icon {
-    opacity: 1;
-}
-
 /**
 *v-05  artficial-intelligence-page
 *******************************************************/
@@ -379,11 +381,11 @@ header {
 }
 
 .v-05 .article-table-cell.left .content-wrapper {
-    margin-left: 14%;
+    margin-left: 0%;
 }
 
 .v-05 .content-wrapper .icon-group {
-    width: 65%;
+    width: 85%;
 }
 
 .v-05 .content-wrapper .icon-group .title {
@@ -426,6 +428,7 @@ header {
     -o-transition: opacity .3s;
     transition: opacity .3s;
 }
+
 
 /**
 *multiple slides, smart home page
@@ -660,7 +663,7 @@ header {
 }
 
 /**
-*lover view 05    ��ս
+*lover view 06    ��ս
 ****************************************************************/
 .lv-06 .content-wrapper {
     margin-top: 0;
