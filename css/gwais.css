@@ -1,0 +1,904 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+h1 {
+    font-size: 37.5px;
+    color: #646464;
+}
+
+h2 {
+    font-size: 21px;
+    margin-top: 10px;
+    color: #888888;
+}
+
+h3 {
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    line-height: 1.5;
+}
+
+h4 {
+    font-size: 10.5px;
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    background: #f0f0f0;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    transition-duration: 1000ms;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.swiper-slide .flex-row {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    text-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+#buyLinkContainer .buy-link-item {
+    display: none;
+}
+
+#buyLinkContainer .buy-link-item.active {
+    display: flex;
+}
+
+.swiper-slide footer {
+    width: 100%;
+}
+
+/*.swiper-slide.swiper-slide-active {*/
+/*z-index: 100;*/
+/*}*/
+
+.swiper-pagination-bullet {
+    width: 5px;
+    height: 16px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/**
+*Framework
+*******************************************************/
+
+header {
+    z-index: 1000;
+}
+
+.content-wrapper {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.content-wrapper h1 {
+    color: #505050;
+}
+
+.content-wrapper h2 {
+    color: #505050;
+}
+
+.content-wrapper h3 {
+    color: rgba(100, 100, 100, 1);
+}
+
+.content-wrapper > .description {
+    margin-top: 35px;
+}
+
+.content-wrapper > .description + .description {
+    margin-top: 10px;
+}
+
+.content-wrapper .icon-group {
+    margin-top: 30px;
+}
+
+.sub-header {
+    z-index: 1100;
+    background: inherit;
+
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+
+    font-size: 16px;
+}
+
+.sub-header .logo {
+    margin-left: 4%;
+
+    text-align: center;
+    vertical-align: middle;
+
+    width: 70px;
+    display: inline-block;
+
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+
+.sub-header .logo.icon-gowild-logo:before {
+    display: inline-block;
+}
+
+.sub-header ul {
+    position: absolute;
+    left: 0;
+
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0;
+    padding-left: 0;
+    margin: 0 0 0 43%;
+    border-top: 1px solid #C2C2C2;
+    text-align: center;
+    list-style-type: none;
+
+    width: 180px;
+    display: inline-block;
+
+    -webkit-transition: margin-left 1s;
+    -moz-transition: margin-left 1s;
+    -ms-transition: margin-left 1s;
+    -o-transition: margin-left 1s;
+    transition: margin-left 1s;
+}
+
+.sub-header ul li {
+    display: inline-block;
+    padding: 0 19px;
+}
+
+.sub-header ul li a,
+.sub-header ul li a:visited,
+.sub-header ul li a:link {
+    display: block;
+    color: #787878;
+    cursor: pointer;
+}
+
+.header-black .sub-header ul li a:hover,
+.header-black .sub-header ul li a:active,
+.header-black .sub-header ul li a.active {
+    color: #fff;
+}
+
+.tiao {
+    width: 100%;
+    height: 80px;
+    background-color: #dcdcdc;
+}
+
+.tiao_one {
+    width: 1080px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.tiao_one h2 {
+    float: left;
+    width: 100px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 20px;
+    color: #323232;
+}
+
+.tiao_one p {
+    float: left;
+    margin-left: 230px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 36px;
+    color: #323232;
+}
+
+.tiao_one a {
+    float: left;
+    margin-left: 22px;
+    margin-top: 16px;
+    width: 180px;
+    height: 50px;
+    -moz-border-radius: 34px; /* Gecko browsers */
+    -webkit-border-radius: 34px; /* Webkit browsers */
+    border-radius: 34px;
+    text-align: center;
+    font-size: 20px;
+    color: #323232;
+}
+
+.tiao_one div {
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 40px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.tiao_one .div1 {
+
+    background-color: #eb5724;
+}
+
+.tiao_one .div2 {
+
+    background-color: #323232;
+}
+
+.tiao_one .div3 {
+
+    background-color: #ffffff;
+}
+
+.tiao_one .div4 {
+
+    background-color: #c7ff48;
+}
+
+.tiao_one .div5 {
+
+    background-color: #1fc2de;
+}
+
+.tab-list {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.tab-list .tab-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    display: none;
+
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -ms-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    transition: opacity .6s;
+}
+
+.tab-list .tab-item.active {
+    opacity: 1;
+    display: block;
+}
+
+/**
+ *youth
+ *---------------------------------*/
+.swiper-container.youth .icon {
+    color: #505050;
+}
+
+.swiper-container.youth .swiper-wrapper .v-banner {
+    padding-top: 120px;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.swiper-container.youth .swiper-wrapper .v-02 {
+    background-image: url('../img/product/gwais/v-02.png');
+}
+
+.swiper-container.youth .swiper-wrapper .v-02 h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 80px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-02 .icon-group {
+    width: 32%;
+}
+
+/*=========v03========*/
+.swiper-container.youth .swiper-wrapper .v-03 h1 {
+    color: #fff;
+    line-height: 80px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-03 h2,
+.swiper-container.youth .swiper-wrapper .v-03 h3,
+.swiper-container.youth .swiper-wrapper .v-03 .icon {
+    color: #a3a3a3;
+}
+
+.swiper-container.youth .swiper-wrapper .v-03 .content-wrapper {
+    margin-left: -125px;
+    margin-top: 90px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-03 {
+    background: url('../img/product/gwais/v-03-back.png') repeat;
+}
+
+.swiper-container.youth .swiper-wrapper .v-03 .article-table .left img {
+    width: 65%;
+    height: 84%;
+    position: absolute;
+    bottom: 0px;
+    right: 94px;
+
+}
+
+.swiper-container.youth .swiper-wrapper .v-03 .article-table-cell.left {
+    position: relative;
+}
+
+.swiper-container.youth .swiper-wrapper .v-03 .icon-group .icon:before {
+    font-size: 40px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-03 .icon-group .icon .title {
+    line-height: initial;
+}
+
+/*======== v04 =========*/
+.swiper-container.youth .swiper-wrapper .v-04 {
+    background-image: url('../img/product/gwais/v-04.png');
+}
+
+.swiper-container.youth .swiper-wrapper .v-04 .icon-group {
+    width: 24%;
+}
+
+.swiper-container.youth .swiper-wrapper .v-04 h1,
+.swiper-container.youth .swiper-wrapper .v-04 h2,
+.swiper-container.youth .swiper-wrapper .v-04 h3,
+.swiper-container.youth .swiper-wrapper .v-04 .icon {
+    color: #fff;
+}
+
+.swiper-container.youth .swiper-wrapper .v-04 h1 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 82px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-04 h3 {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 72px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-04 .description {
+    width: 520px;
+    margin: 30px auto;
+}
+
+/*======== v05 =========*/
+.swiper-container.youth .swiper-wrapper .v-05 {
+    background-image: url('../img/product/gwais/v-params.png');
+}
+
+/*=======  v06 ========*/
+.swiper-container.youth .swiper-wrapper .v-06 {
+    flex-direction: column;
+}
+
+.swiper-container.youth .swiper-wrapper .v-06 .crowdfunding-btn {
+
+}
+
+.swiper-container.youth .swiper-wrapper .v-06 .buy-link-wrapper .link-item {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid #c0c0c0;
+}
+
+.swiper-container.youth .swiper-wrapper .v-06 .buy-link-wrapper .link-item:first-child {
+    padding-left: 0;
+}
+
+.swiper-container.youth .swiper-wrapper .v-06 .buy-link-wrapper .link-item:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+.v-06 .buy-link-wrapper .link-item img {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.buy-link-wrapper .link-item .btn {
+    width: 145px;
+    border-radius: 30px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-07 {
+    background-color: #dcdcdc;
+}
+
+.swiper-container.youth .swiper-wrapper .v-07 .article-table .left {
+    position: relative;
+}
+
+.swiper-container.youth .swiper-wrapper .v-07 .article-table .left img {
+    position: absolute;
+    top: 28%;
+    right: 85px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-07 .content-wrapper {
+    margin-left: -90px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-07 .content-wrapper h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.swiper-container.youth .swiper-wrapper .v-07 .content-wrapper h3 {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-07 .content-wrapper .icon > .title {
+    line-height: 16px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 {
+    background-color: #333;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product {
+    width: 980px;
+    height: 590px;
+    margin: 0 auto;
+    margin-top: 158px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product .product-left {
+    width: 760px;
+    float: left;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product .product-left .product-show {
+    width: 250px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product .product-left .product-list {
+    width: 760px;
+    height: 150px;
+    margin-top: 100px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product .product-left .product-list ul li {
+    width: 130px;
+    height: 150px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product .product-left .product-list ul .active {
+    border-bottom: 2px #fff solid;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product .product-right {
+    width: 28px;
+    height: 288px;
+    float: right;
+    margin-top: 35px;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product-right .active {
+    background-color: #fff;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product-right .circle1 {
+    border: 2px #eb5724 solid;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product-right .circle2 {
+    border: 2px #000 solid;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product-right .circle3 {
+    border: 2px #fff solid;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product-right .circle4 {
+    border: 2px #bef247 solid;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product-right .circle5 {
+    border: 2px #249eb3 solid;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product-right li {
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.swiper-container.youth .swiper-wrapper .v-08 .product-list li {
+    list-style-type: none;
+}
+
+/*
+ *celebrity
+ *-----------------------------------*/
+.celebrity-container .v-banner {
+    background-image: url('../img/product/gwais/celebrity-banner.png');
+}
+
+.celebrity-container .v-wangdalu .article-table-cell.left {
+    background: url('../img/product/gwais/left-wangdalu.png');
+    background-size: auto 100%;
+}
+
+.celebrity-container .v-nimeide {
+    background: url('../img/product/gwais/left-nimei.png');
+    background-size: 100% 100%;
+}
+
+.celebrity-container .v-qinchun {
+    background: url('../img/product/gwais/zhiqinchun.png');
+    background-size: 100% 100%;
+}
+
+.celebrity-container .v-taiyangya {
+    background: url('../img/product/gwais/taiyangya.png');
+    background-size: 100% 100%;
+}
+
+@media screen and (min-width: 1860px) {
+    .celebrity-container .v-taiyangya {
+        background: url('../img/product/gwais/taiyangya@1920.png');
+        background-size: 100% 100%;
+    }
+}
+
+.celebrity-container .swiper-slide.v-06 {
+    flex-direction: column;
+}
+
+/**
+ *goto crowdfunding
+ *-----------------------------------*/
+.celebrity-container .swiper-wrapper .v-goto-crowdfunding {
+    text-align: center;
+}
+
+.crowdfunding-btn {
+    width: 248px;
+    height: 248px;
+    line-height: 248px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+
+    border-radius: 100%;
+
+    font-size: 28px;
+}
+
+.crowdfunding-btn .icon {
+    color: #fff !important;
+    font-size: 36px;
+}
+
+.celebrity-container .swiper-wrapper .v-gwais-show {
+    background-color: #333;
+}
+
+.show-wrapper .show-details {
+    position: relative;
+}
+
+.show-wrapper .show-details div {
+    font-size: 20px;
+    position: absolute;
+    bottom: 40px;
+    right: 70px;
+}
+
+.show-wrapper .show-details div a {
+    color: #b3b3b3;
+}
+
+.show-wrapper .show-details div .active {
+    color: #fff;
+}
+
+.show-wrapper .thumbnail-list {
+    list-style-type: none;
+    padding-left: 0;
+    -webkit-padding-start: 0;
+
+    margin-top: 14%;
+}
+
+.show-wrapper .thumbnail-list li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.show-wrapper .thumbnail-list .active {
+    border-bottom: 2px #fff solid;
+}
+
+.show-wrapper .thumbnail-list li img {
+    width: 130px;
+    height: 145px;
+}
+
+.article-table .article-table-cell.right .xuanx {
+    width: 100%;
+    margin-left: 19%;
+    margin-top: 35px;
+}
+
+.article-table .article-table-cell.right .xuanx h1 {
+    font-size: 21px;
+    margin-top: 10px;
+    color: #323232;
+    font-weight: 600;
+}
+
+.article-table .article-table-cell.right .xuanx-1 {
+    width: 100%;
+    margin-left: 27%;
+    margin-top: 35px;
+}
+
+.article-table .article-table-cell.right .xuanx-1 h1 {
+    font-size: 21px;
+    margin-top: 10px;
+    color: #323232;
+    font-weight: 600;
+}
+
+.icon-wangxiaolu-title {
+    font-size: 75px;
+    margin-right: 36px;
+    color: #000;
+}
+
+.article-table .article-table-cell.right .xuanx li {
+    width: 100%;
+    height: 95px;
+    text-align: left;
+    list-style-type: none;
+    color: #505050;
+}
+
+.article-table .article-table-cell.right .xuanx-1 li {
+    width: 100%;
+    height: 95px;
+    text-align: left;
+    list-style-type: none;
+    color: #505050;
+}
+
+.article-table .article-table-cell.right .xuanx-1 li i {
+    width: 65px;
+    height: 65px;
+    margin-top: 6px;
+    background-color: #323232;
+    color: #fff;
+    font-size: 40px;
+    line-height: 69px;
+    text-align: center;
+    float: left;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.article-table .article-table-cell.right .xuanx li i {
+    width: 65px;
+    height: 65px;
+    margin-top: 6px;
+    background-color: #fce001;
+    color: #5b5b5b;
+    font-size: 40px;
+    line-height: 69px;
+    text-align: center;
+    float: left;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.article-table .article-table-cell.right .xuanx li div {
+    display: inline-block;
+    margin-left: 18px;
+    float: left;
+}
+
+.article-table .article-table-cell.right .xuanx-1 li div {
+    display: inline-block;
+    margin-left: 18px;
+    float: left;
+}
+
+.v-gwais-show {
+    background-color: #323232;
+}
+
+.v-tab {
+    width: 100%;
+    height: 120px;
+    background-color: #323232;
+    z-index: 999;
+}
+
+.v-tab .v-tab-nav {
+    width: 1340px;
+    height: 120px;
+}
+
+.v-tab.active {
+    position: fixed;
+    top: 120px;
+}
+
+.v-tab li {
+    width: 324px;
+    height: 101px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    list-style-type: none;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.v-tab li.active {
+    opacity: 1;
+}
+
+.v-tab .TypeList1 {
+    background: url('../img/product/gwais/xiexian.png') no-repeat 265px;
+}
+
+.v-tab .TypeList2 {
+    background: url('../img/product/gwais/xiexian.png') no-repeat 275px;
+}
+
+.v-tab .TypeList3 {
+    background: url('../img/product/gwais/xiexian.png') no-repeat 275px;
+}
+
+.v-tab .TypeList4 {
+    width: 140px;
+    height: 101px;
+    line-height: 101px;
+    text-align: center;
+}
+
+/**
+ * taobao zhongchou
+ ***************************/
+.swiper-slide .buy-link-wrapper {
+    margin-left: 40px;
+}
+
+/**
+ * color show
+ ***************************************/
+.color-show {
+    flex: 1;
+    position: relative;
+}
+
+.color-list {
+    list-style-type: none;
+    -webkit-padding-start: 0;
+    padding-left: 0;
+}
+
+.color-list li {
+    width: 25%;
+    height: 190px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+.color-list li img {
+    width: 100%;
+}
+
+.color-list .gwais img {
+    width: 150px;
+    height: 160px;
+
+    -webkit-transition: transform .6s;
+    -moz-transition: transform .6s;
+    -ms-transition: transform .6s;
+    -o-transition: transform .6s;
+    transition: transform .6s;
+}
+
+.color-list .gwais:hover img {
+    -webkit-transform: translate3d(0, 0, 0) scale(1.3);
+    -moz-transform: translate3d(0, 0, 0) scale(1.3);
+    -ms-transform: translate3d(0, 0, 0) scale(1.3);
+    -o-transform: translate3d(0, 0, 0) scale(1.3);
+    transform: translate3d(0, 0, 0) scale(1.3);
+}
+
+#celebrityShowSwiper .swiper-slide {
+    display: none;
+}
+
+#celebrityShowSwiper .swiper-slide.active {
+    display: block;
+}
