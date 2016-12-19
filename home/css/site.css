@@ -222,7 +222,7 @@ header {
 }
 
 /**
-*v-01  С�׵ĵ�һ�Ž���ͼ
+*v-01  egg-design-page
 *******************************************************/
 .v-01 {
     background-color: #e9e9e9;
@@ -255,7 +255,9 @@ header {
     outline: 0;
 }
 
-/******=====================v02=====================*********/
+/**
+*v-02  head-rotation-page
+*******************************************************/
 .v-02 {
 
 }
@@ -270,7 +272,9 @@ header {
     width: 30%;
 }
 
-/*================V-03 С�ױ���==================*/
+/**
+*v-03  emotions-page
+*******************************************************/
 .v-03 .face-wrapper {
     background: url('../img/xiaobai_face.png') no-repeat center;
 }
@@ -293,6 +297,10 @@ header {
 .v-03 .content-wrapper .icon-group .icon:not(.icon-group-title) {
     cursor: pointer;
 }
+
+/**
+*v-04  nlp-page
+*******************************************************/
 
 .v-04 {
     background: #2E2D2D;
@@ -362,6 +370,10 @@ header {
     opacity: 1;
 }
 
+/**
+*v-05  artficial-intelligence-page
+*******************************************************/
+
 .v-05 {
     background: #dcdcdc;
 }
@@ -383,6 +395,10 @@ header {
 .v-05 .right img {
     max-width: 100%;
 }
+
+/**
+*v-06  precision-page
+*******************************************************/
 
 .v-06 {
     background: #323232;
@@ -412,7 +428,7 @@ header {
 }
 
 /**
-*�ײ��Ӳ�ͼƬ
+*multiple slides, smart home page
 ****************************************************/
 .clip-pic-list {
     position: absolute;
