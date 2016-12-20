@@ -1,6 +1,7 @@
 html, body {
     position: relative;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -335,8 +336,8 @@ header {
 }
 
 .swiper-container.youth .swiper-wrapper .v-02 h1 {
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 36px;
+    font-weight: 400;
     line-height: 80px;
 }
 
@@ -403,19 +404,22 @@ header {
 }
 
 .swiper-container.youth .swiper-wrapper .v-04 h1 {
-    font-size: 45px;
-    font-weight: 800;
+    font-size: 36px;
+    font-weight: 400;
+    text-shadow: -1px 1px black;
     line-height: 82px;
 }
 
 .swiper-container.youth .swiper-wrapper .v-04 h3 {
     font-size: 18px;
     text-align: left;
+    text-shadow: -1px 1px black;
     padding-left: 72px;
 }
 
 .swiper-container.youth .swiper-wrapper .v-04 .description {
-    width: 520px;
+    width: 600px;
+    text-shadow: -1px 1px black;
     margin: 30px auto;
 }
 
@@ -478,8 +482,8 @@ header {
 }
 
 .swiper-container.youth .swiper-wrapper .v-07 .content-wrapper h1 {
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 36px;
+    font-weight: 400;
 }
 
 .swiper-container.youth .swiper-wrapper .v-07 .content-wrapper h3 {
@@ -700,12 +704,12 @@ header {
 
 .article-table .article-table-cell.right .xuanx {
     width: 100%;
-    margin-left: 19%;
+    margin-left: 2%;
     margin-top: 35px;
 }
 
 .article-table .article-table-cell.right .xuanx h1 {
-    font-size: 21px;
+    font-size: 18px;
     margin-top: 10px;
     color: #323232;
     font-weight: 600;
@@ -713,12 +717,12 @@ header {
 
 .article-table .article-table-cell.right .xuanx-1 {
     width: 100%;
-    margin-left: 27%;
+    margin-left: 2%;
     margin-top: 35px;
 }
 
 .article-table .article-table-cell.right .xuanx-1 h1 {
-    font-size: 21px;
+    font-size: 18px;
     margin-top: 10px;
     color: #323232;
     font-weight: 600;
@@ -750,6 +754,7 @@ header {
     width: 65px;
     height: 65px;
     margin-top: 6px;
+    margin-right: 10px;
     background-color: #323232;
     color: #fff;
     font-size: 40px;
@@ -765,6 +770,7 @@ header {
     width: 65px;
     height: 65px;
     margin-top: 6px;
+    margin-right: 10px;
     background-color: #fce001;
     color: #5b5b5b;
     font-size: 40px;
