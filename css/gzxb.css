@@ -110,7 +110,7 @@ header {
 }
 
 .xiaobai {
-    background: url("../img/head-rotate.gif") no-repeat center;
+    background: url("../img/product/gzxb/head-rotate.gif") no-repeat center;
     min-width: 500px;
     height: 570px;
 
@@ -281,7 +281,7 @@ header {
 *v-03  emotions-page
 *******************************************************/
 .v-03 .face-wrapper {
-    background: url('../img/xiaobai_face.png') no-repeat center;
+    background: url('../img/product/gzxb/xiaobai_face.png') no-repeat center;
 }
 
 .v-03 .face-wrapper .face {
@@ -540,27 +540,27 @@ header {
 
 /**============����pic-list��ͼƬ===============**/
 .clip-pic-list .item .pic.yuquan {
-    background-image: url('../img/parallax/yuquan.png');
+    background-image: url('../img/product/gzxb/parallax/yuquan.png');
 }
 
 .clip-pic-list .item .pic.monitor {
-    background-image: url('../img/parallax/monitor.png');
+    background-image: url('../img/product/gzxb/parallax/monitor.png');
 }
 
 .clip-pic-list .item .pic.schedule {
-    background-image: url('../img/parallax/schedule.png');
+    background-image: url('../img/product/gzxb/parallax/schedule.png');
 }
 
 .clip-pic-list .item .pic.alarm {
-    background-image: url('../img/parallax/alarm.png');
+    background-image: url('../img/product/gzxb/parallax/alarm.png');
 }
 
 .clip-pic-list .item .pic.photograph {
-    background-image: url('../img/parallax/photograph.png');
+    background-image: url('../img/product/gzxb/parallax/photograph.png');
 }
 
 .clip-pic-list .item .pic.music {
-    background: url('../img/parallax/music.gif') center no-repeat rgba(240, 240, 240, 1);
+    background: url('../img/product/gzxb/parallax/music.gif') center no-repeat rgba(240, 240, 240, 1);
 }
 
 /**

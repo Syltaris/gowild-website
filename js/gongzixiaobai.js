@@ -57,7 +57,7 @@ var featureSwiper = new Swiper('#featureSwiper', {
     },
     onSlideChangeEnd: function (swiper) {
         if (swiper.activeIndex == 1) {
-            $(swiper.slides[swiper.activeIndex]).find('#headRotate').css('background-image', "url('../img/head-rotate.gif')");
+            $(swiper.slides[swiper.activeIndex]).find('#headRotate').css('background-image', "url('../../img/product/gzxb/head-rotate.gif')");
         }
         else if (swiper.activeIndex == 3) {
             var icons = $(swiper.slides[swiper.activeIndex]).find('.icon-group > .icon');
@@ -72,7 +72,7 @@ var featureSwiper = new Swiper('#featureSwiper', {
         else if (swiper.activeIndex == 5) {
             var gifWrapper = $(swiper.slides[swiper.activeIndex]).find('#dataAnalysisGif');
 
-            gifWrapper.css('background-image', "url('../img/data-analysis.gif')");
+            gifWrapper.css('background-image', "url('../../img/product/gzxb/data-analysis.gif')");
         }
         $(swiper.slides[swiper.activeIndex]).addClass('animated');
     },
@@ -120,19 +120,19 @@ $('#faceView').face({
     data: [{
         iconClass: 'icon icon-face-laugh',
         title: 'ϲ',
-        faceSrc: '../img/face-laugh.gif'
+        faceSrc: '../../img/product/gzxb/face-laugh.gif'
     }, {
         iconClass: 'icon icon-face-anger',
         title: 'ŭ',
-        faceSrc: '../img/face-anger.gif'
+        faceSrc: '../../img/product/gzxb/face-anger.gif'
     }, {
         iconClass: 'icon icon-face-sorrow',
         title: '��',
-        faceSrc: '../img/face-sorrow.gif'
+        faceSrc: '../../img/product/gzxb/face-sorrow.gif'
     }, {
         iconClass: 'icon icon-face-happy',
         title: '��',
-        faceSrc: '../img/face-happy.gif'
+        faceSrc: '../../img/product/gzxb/face-happy.gif'
     }]
 });
 
@@ -166,8 +166,8 @@ $('#showDesign').click(function () {
 
 $('.lovers-swiper-container').find('.swiper-slide').each(function (index, scope) {
     var
-        left = 'url("../img/lovers/v0' + parseInt(index + 1) + '-left.png")',
-        right = 'url("../img/lovers/v0' + parseInt(index + 1) + '-right.png")';
+        left = 'url("../../img/product/gzxb/lovers/v0' + parseInt(index + 1) + '-left.png")',
+        right = 'url("../../img/product/gzxb/lovers/v0' + parseInt(index + 1) + '-right.png")';
     $(scope).find('.left').css('background-image', left);
     $(scope).find('.right').css('background-image', right);
 });
