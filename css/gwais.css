@@ -176,12 +176,12 @@ header {
     -webkit-padding-start: 0;
     -moz-padding-start: 0;
     padding-left: 0;
-    margin: 0 0 0 43%;
+    margin: 0 0 0 38%;
     border-top: 1px solid #C2C2C2;
     text-align: center;
     list-style-type: none;
 
-    width: 180px;
+    width: 300px;
     display: inline-block;
 
     -webkit-transition: margin-left 1s;
@@ -224,7 +224,7 @@ header {
 
 .tiao_one h2 {
     float: left;
-    width: 100px;
+    width: 200px;
     height: 55px;
     line-height: 55px;
     text-align: center;

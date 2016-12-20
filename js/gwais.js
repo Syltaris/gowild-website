@@ -9,6 +9,17 @@ var loverSwiper = new Swiper('#loverSwiper', {
     mousewheelControl: true,
     loop: false,
     speed: 1000,
+    /* NOTE: rough fix of animated not removing and adding properly */
+    onSlideChangeStart: function (swiper) {
+    	 $prevSlide = $(swiper.slides[swiper.activeIndex-1]);
+    	 
+    	 if($prevSlide.hasClass('animated')) {
+    	 	$prevSlide.removeClass('animated');
+    	 } else {
+    	 	$(swiper.slides[swiper.activeIndex+1]).removeClass('animated');
+    	 }
+
+    },
     onSlideChangeEnd: function (swiper) {
         var headerClass = $(swiper.slides[swiper.activeIndex]).attr('data-header-class') || '';
         if (this.headerClass != '') {
@@ -18,6 +29,7 @@ var loverSwiper = new Swiper('#loverSwiper', {
             $('.header-wrapper').addClass(headerClass);
             this.headerClass = headerClass;
         }
+        $(swiper.slides[swiper.activeIndex]).addClass('animated');
     },
     onInit: function (_self) {
         setTimeout(function () {
@@ -26,12 +38,23 @@ var loverSwiper = new Swiper('#loverSwiper', {
     }
 });
 var featureSwiper = new Swiper('#featureSwiper', {
-    pagination: '#featureSwiperPagenation',
+    pagination: '#featureSwiperPagination',
     paginationClickable: true,
     direction: 'vertical',
     mousewheelControl: true,
     speed: 1800,
     loop: false,
+    /* NOTE: rough fix of animated not removing and adding properly */
+    onSlideChangeStart: function (swiper) {
+    	 $prevSlide = $(swiper.slides[swiper.activeIndex-1]);
+    	 
+    	 if($prevSlide.hasClass('animated')) {
+    	 	$prevSlide.removeClass('animated');
+    	 } else {
+    	 	$(swiper.slides[swiper.activeIndex+1]).removeClass('animated');
+    	 }
+
+    },
     onSlideChangeEnd: function (swiper) {
         if (swiper.activeIndex == 5) {
             var gifWrapper = $(swiper.slides[swiper.activeIndex]).find('#dataAnalysisGif');
@@ -41,6 +64,7 @@ var featureSwiper = new Swiper('#featureSwiper', {
         else if (swiper.activeIndex == 1) {
             $(swiper.slides[swiper.activeIndex]).find('#headRotate').css('background-image', "url('../img/head-rotate.gif')");
         }
+        $(swiper.slides[swiper.activeIndex]).addClass('animated');
     },
     onInit: function (_self) {
         setTimeout(function () {
