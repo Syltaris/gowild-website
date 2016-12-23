@@ -1,0 +1,18 @@
+<header class="nav-bar" ng-class="{active:navBar.isActivated}">
+  <div class="bar">
+    <a class="icon icon-logo" ui-sref="dash"></a>
+
+    <div class="right-icon">
+      <!--<a class="ion-android-menu"></a>-->
+      <a href="javascript:void(0);" ng-class="{true: 'icon icon-close', false: 'ion-android-menu'}[navBar.isActivated]"
+         on-tap="navBar.toggleActive();"></a>
+    </div>
+  </div>
+  <nav class="nav-wrapper">
+    <ul>
+      <li ng-repeat="nav in navBar.datas">
+        <a href="{{nav.href||'javascript:void(0);'}}" ui-sref="{{nav.state}}" ng-bind-html="nav.title"></a>
+      </li>
+    </ul>
+  </nav>
+</header>

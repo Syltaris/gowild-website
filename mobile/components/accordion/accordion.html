@@ -1,0 +1,13 @@
+<div class="accordion" ng-class="{active:isActivated,'has-icon-text':iconText?true:false}" ng-click="toggleActive();">
+  <div class="accordion-header">
+    <i class="xuhao" ng-bind="iconText" ng-show="iconText"></i>
+    <h5 style="position: relative;">
+      <span ng-bind="title"></span>
+    </h5>
+
+    <i class="icon-right"></i>
+  </div>
+  <div class="accordion-body" ng-show="menuState">
+    <ng-transclude></ng-transclude>
+  </div>
+</div>

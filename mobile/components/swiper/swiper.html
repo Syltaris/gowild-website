@@ -1,0 +1,8 @@
+<div class="swiper">
+  <div class="slides-wrapper">
+    <div class="slide-item" ng-repeat="slide in slides"
+         style="width:{{slide.width}}px;transform:translate({{slide.transform}}px,0) scale({{slide.scale}});">
+      <img ng-src="{{slide.imageUrl}}">
+    </div>
+  </div>
+</div>
