@@ -860,7 +860,7 @@ angular.module('starter', ['ui.router', 'ionic', 'utils', 'services', 'starter.c
 
   angular.module('starter.controllers')
     .controller('StarCtrl', ['$scope', '$timeout', function ($scope, $timeout) {
-      $scope.currentMovedTitle = '公子小白青春版IP定制款';
+      $scope.currentMovedTitle = 'Mini GongZi.XiaoBai Celebrity Version';
 
       $scope.handleChangeTitle = function (title) {
         $timeout(function () {
