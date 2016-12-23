@@ -2,23 +2,23 @@
   <nav-bar></nav-bar>
   <ion-content class="has-header">
     <img style="padding:20px;" ng-src="{{qrCodeurl}}"
-         on-load-start="onImageLoaded($event)" alt="正在� 载...."/>
+         on-load-start="onImageLoaded($event)" alt="Downloading...."/>
     <form name="qrCodeForm" ng-submit="generateQrCode();">
       <div class="list">
         <label class="item item-input">
-          <span class="input-label">手机号</span>
+          <span class="input-label">Mobile Number</span>
           <input type="text" ng-model="qrCode.account">
         </label>
         <label class="item item-input">
-          <span class="input-label">Wifi名称</span>
+          <span class="input-label">WiFi Username</span>
           <input type="text" ng-model="qrCode.ssid">
         </label>
         <label class="item item-input">
-          <span class="input-label">Wifi密� �</span>
+          <span class="input-label">WiFi Password</span>
           <input type="text" ng-model="qrCode.pwd">
         </label>
 
-        <button class="button button-positive button-block" type="submit">生成二维� �</button>
+        <button class="button button-positive button-block" type="submit">Create QR Code</button>
       </div>
     </form>
   </ion-content>

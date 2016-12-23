@@ -337,31 +337,31 @@ angular.module('starter', ['ui.router', 'ionic', 'utils', 'services', 'starter.c
             },
             datas: [{
               state: 'xb',
-              title: '公子&bull;小白',
+              title: 'GongZi.XiaoBai',
             }, {
               state: 'xxb',
-              title: '公子小白|青春版',
+              title: 'Mini GongZi.XiaoBai',
             }, {
               state: 'star',
-              title: '公子小白|IP定制款',
+              title: 'Mini GongZi.XiaoBai Celebrity Version',
             }, {
               state: 'smartPlus',
-              title: '公子小白Smart Plus',
+              title: 'GongZi.XiaoBai Smart Plus',
             }, {
               state: 'news.list',
-              title: '新闻资讯',
+              title: 'News',
             }, {
               state: 'news',
-              title: '小尾巴社群',
+              title: 'Gowild.CN',
             }, {
               state: 'support.list',
-              title: '服务支持',
+              title: 'Support',
             }, {
               state: 'about',
-              title: '关于我们',
+              title: 'About Us',
             }, {
               state: 'wifiQrCode',
-              title: '旧机器联网二维� �'
+              title: 'WiFi QR Code'
             }]
           }
         }
