@@ -20,5 +20,5 @@ var os = function () {
     };
 }();
 if (os.isMobile) {
-    window.location.href = "http://gowild.cn/mobile/";
+    window.location.href = "http://gowild.sg/mobile/";
 }

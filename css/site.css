@@ -2195,7 +2195,7 @@ ul.payment-list {
 	background-size: cover;
 	border-radius: 5px; 
 	width: 500px; 
-	height: 395px;
+	height: 595px;
 	
 	overflow: hidden; 
 }
@@ -2204,14 +2204,21 @@ ul.payment-list {
 	display: inline-block;
 	z-index: 900;
 	margin: 10px 0 0 0;
+	padding: 5px;
 	
 	background: white;
 	background-size: cover;
 	border-radius: 5px; 
 	width: 500px; 
-	height: 395px;
+	height: 195px;
 	
 	overflow: hidden;
+}
+
+.social-media-wrapper .instag-page .lightwidget-widget {
+	width: 100%;
+	border: 0;
+	
 }
 
 .social-media-wrapper .twitter-page {

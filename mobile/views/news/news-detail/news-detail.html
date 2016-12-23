@@ -1,0 +1,17 @@
+<nav-bar></nav-bar>
+<ion-content class="has-header">
+  <div class="news-main">
+    <div class="news-title">
+      <h2 class="title" ng-bind="newsModel.postTitle"></h2>
+    </div>
+    <div class="news-property">
+      <span ng-bind="newsModel.postSource"></span>
+      <span ng-bind="newsModel.postDate"></span>
+      <span ng-bind="newsModel.postHits"></span>
+    </div>
+
+    <div class="content" ng-bind-html="newsModel.postContent">
+    </div>
+  </div>
+  <gowild-footer/>
+</ion-content>

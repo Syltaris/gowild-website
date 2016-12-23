@@ -1,0 +1,66 @@
+<nav-bar></nav-bar>
+<ion-content class="has-header">
+  <div class="banner-container">
+
+    <ion-slide-box active-slide="myActiveSlide" does-continue="true" auto-play="true" slide-interval="4000">
+      <ion-slide>
+        <a>
+          <img src="img/index/world-robot-meeting.jpg" alt="">
+        </a>
+      </ion-slide>
+      <ion-slide>
+        <a>
+          <img src="img/index/banner-holoera.png" alt="">
+        </a>
+      </ion-slide>
+      <ion-slide>
+        <a ui-sref="xb">
+          <img src="img/index/banner1.png" alt="">
+        </a>
+      </ion-slide>
+      <ion-slide>
+        <a ui-sref="xxb">
+          <img src="img/index/banner2.png" alt="">
+        </a>
+      </ion-slide>
+      <ion-slide>
+        <a ui-sref="xxb">
+          <img src="img/index/banner3.png" alt="">
+        </a>
+      </ion-slide>
+      <ion-slide>
+        <a ui-sref="star">
+          <img src="img/index/banner4.png" alt="">
+        </a>
+      </ion-slide>
+    </ion-slide-box>
+  </div>
+  <div class="main">
+    <div class="main-header" ui-sref="xb">
+      <div class="main-header-title">
+        <h2>公子&bull;小白</h2>
+        <p>懂� 的情感社交机器人</p>
+      </div>
+      <img class="main-header-wrap" src="img/index/xbgz.png"/>
+    </div>
+    <div class="main-banner">
+      <div class="main-banner-title" ui-sref="xxb">
+        <h2>公子小白|青春版<span>青春款</span></h2>
+        <p>年轻人最贴心的小玩伴</p>
+      </div>
+      <img class="main-banner-wrap" src="img/index/bj.png"/>
+      <div class="main-banner-goods">
+        <swiper slides="slides"></swiper>
+      </div>
+    </div>
+    <div class="main-footer" ui-sref="star">
+      <div class="main-footer-title">
+        <h2>公子小白|青春版<span>明星款</span></h2>
+        <p>明星定制，不潮不约</p>
+      </div>
+      <img class="main-fooer-wrap" src="img/index/mxw.png"/>
+    </div>
+  </div>
+
+  <gowild-footer></gowild-footer>
+</ion-content>

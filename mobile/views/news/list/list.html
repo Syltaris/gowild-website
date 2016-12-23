@@ -1,0 +1,30 @@
+<nav-bar></nav-bar>
+
+<ion-content class="has-header">
+  <div class="news-container">
+    <div class="news-column" ng-repeat="item in newsList.items">
+      <div class="news-sidebar">
+        <div class="news-time">
+          <h1 ng-bind="item.postDateDay"></h1>
+          <p ng-bind="item.postDateYm"></p>
+        </div>
+
+      </div>
+      <div class="news-content-container">
+        <div class="news-content">
+          <a class="title" ui-sref="news.details({id:item.id,cid:item.cid})" ng-bind="item.postTitle"></a>
+
+          <p ng-bind-html="item.postExcerpt"></p>
+          <div class="news-banner" ng-show="item.thumb1">
+            <img ng-src="{{item.thumb1}}">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ion-infinite-scroll ng-if="newsList.hasMore"
+                       on-infinite="newsList.loadMore();">
+  </ion-infinite-scroll>
+
+  <gowild-footer/>
+</ion-content>
