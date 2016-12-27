@@ -60,10 +60,6 @@ h6 {
     transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-/*.swiper-slide.swiper-slide-active {*/
-/*    z-index: 100;*/
-/*}*/
-
 .swiper-pagination-bullet {
     width: 5px;
     height: 16px;
@@ -221,7 +217,7 @@ header {
     color: #37bef0;
 }
 
-/* moves all icons down a bit to close gap btw text */
+/* moves all icons down a bit to close gap between text */
 .icon-group .icon i {
     transform: translate3d(0px, 14px, 0px);
 }
@@ -496,7 +492,6 @@ header {
     height: 100%;
 }
 
-/**===========pic-listĬ����������ɫ===============**/
 .clip-pic-list .item {
     background: #e5e5e5;
 }
@@ -513,7 +508,6 @@ header {
     color: #787878;
 }
 
-/**===========��ɫ����pic-list===============**/
 .clip-pic-list .item.black .description {
     background: #323232;
 }
@@ -564,13 +558,13 @@ header {
 }
 
 /**
-*ӵ��Ta
+*owning him page
 *******************************************************************/
 .lovers-swiper-container {
 
 }
 
-/*==================tag btn===================*/
+/* mini buttons at bottom right */
 .lovers-swiper-container .content-wrapper .tag-list {
     margin-top: 40px;
 }
@@ -584,7 +578,7 @@ header {
     font-size: 14px;
 }
 
-/**=============������ͼ��ܿ���=================**/
+/* 'owning him' main slides */
 .lovers-swiper-container .content-wrapper .description {
     margin-top: 0;
 }
@@ -607,11 +601,11 @@ header {
 }
 
 /**
-*lover view 01 01 01    ����
+*owning him slide v-01
 ****************************************************************/
 
 /**
-*lover view 02 02 02  ����
+*owning him slide v-02
 ****************************************************************/
 .lv-02 .left .content-wrapper {
     margin-top: -30%;
@@ -625,7 +619,7 @@ header {
 }
 
 /**
-*lover view 03 03 03   �ػ�
+*owning him slide v-03
 ****************************************************************/
 .lv-03 .article-table-cell.left .content-wrapper {
     margin-top: 26%;
@@ -637,7 +631,7 @@ header {
 }
 
 /**
-*lover view 04  ����
+*owning him slide v-04
 ****************************************************************/
 .lv-04 .article-table-cell.left .content-wrapper {
     margin-top: -12%;
@@ -652,7 +646,7 @@ header {
 }
 
 /**
-*lover view 05    ���
+*owning him slide v-05
 ****************************************************************/
 .lv-05 .article-table-cell.left .content-wrapper {
     margin-top: 25%;
@@ -663,12 +657,15 @@ header {
 }
 
 /**
-*lover view 06    ��ս
+*owning him slide v-06
 ****************************************************************/
 .lv-06 .content-wrapper {
     margin-top: 0;
 }
 
+/**
+*owning him slide v-07
+****************************************************************/
 .lv-07 {
     background: #2e2e2e;
 }
@@ -678,7 +675,7 @@ header {
 }
 
 /**
-*design swiper    չ����Ƶ�ģ��
+*'more details' slides
 **************************************************************/
 .design-swiper-wrapper {
     position: absolute;
@@ -711,7 +708,6 @@ header {
     z-index: 2000;
 }
 
-/**=======Title �͹رհ�ť==========**/
 .design-swiper-wrapper .title {
     position: absolute;
     left: 0;
@@ -746,7 +742,7 @@ header {
 }
 
 /**
-*design
+*'more details' 
 *******************************************************/
 .design-swiper-wrapper h1 {
     color: #37bef0;
@@ -768,7 +764,9 @@ header {
     margin-top: 0;
 }
 
-/**==========ɫ��==========**/
+/**
+*'more details' slide dv-01
+*******************************************************/
 .dv-01 .article-table .article-table-cell {
     vertical-align: top;
 }
@@ -795,7 +793,9 @@ header {
     padding-left: 30px;
 }
 
-/**=============���================**/
+/**
+*'more details' slide dv-02
+*******************************************************/
 .dv-02 {
     background-image: url('../../img/product/design/size.png');
 }
@@ -805,7 +805,9 @@ header {
     text-align: right;
 }
 
-/**============����===============**/
+/**
+*'more details' slide dv-03
+*******************************************************/
 .dv-03 {
     background-image: url('../../img/product/design/material.png');
 }
@@ -838,6 +840,9 @@ header {
     background: url('../../img/product/design/material-xiaobai.png');
 }
 
+/**
+*'more details' slide dv-04
+*******************************************************/
 .dv-04 {
     background-image: url('../../img/product/design/structure-background.png');
 }

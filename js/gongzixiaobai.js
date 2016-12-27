@@ -3,6 +3,7 @@
  */
 
 var centerToBothSide = {};
+//owning him page
 var loverSwiper = new Swiper('#loverSwiper', {
     pagination: '#loverSwiperPagination',
     paginationClickable: true,
@@ -19,7 +20,6 @@ var loverSwiper = new Swiper('#loverSwiper', {
     	 } else {
     	 	$(swiper.slides[swiper.activeIndex+1]).removeClass('animated');
     	 }
-
     },
     onSlideChangeEnd: function (swiper) {
         var headerClass = $(swiper.slides[swiper.activeIndex]).attr('data-header-class') || '';
@@ -38,6 +38,7 @@ var loverSwiper = new Swiper('#loverSwiper', {
         }, 1000);
     }
 });
+//about him page
 var featureSwiper = new Swiper('#featureSwiper', {
     pagination: '#featureSwiperPagination',
     paginationClickable: true,
@@ -57,7 +58,8 @@ var featureSwiper = new Swiper('#featureSwiper', {
     },
     onSlideChangeEnd: function (swiper) {
         if (swiper.activeIndex == 1) {
-            $(swiper.slides[swiper.activeIndex]).find('#headRotate').css('background-image', "url('../../img/product/gzxb/head-rotate.gif')");
+            $(swiper.slides[swiper.activeIndex]).find('#headRotate').css('background-image', 
+            "url('../../img/product/gzxb/head-rotate.gif')");
         }
         else if (swiper.activeIndex == 3) {
             var icons = $(swiper.slides[swiper.activeIndex]).find('.icon-group > .icon');
@@ -67,7 +69,7 @@ var featureSwiper = new Swiper('#featureSwiper', {
                 var transformX = (i - middleIndex) * iconWidth;
 
                 $(iconEle).css('transform', 'translate3d(' + transformX + 'px,0px,0px)');
-            })
+            });
         }
         else if (swiper.activeIndex == 5) {
             var gifWrapper = $(swiper.slides[swiper.activeIndex]).find('#dataAnalysisGif');
@@ -82,7 +84,7 @@ var featureSwiper = new Swiper('#featureSwiper', {
         }, 1000);
     }
 });
-//���sub-header�İ�ť�л�ӵ��Ta�͸�֪Ta
+// sub-header items
 var tabs = {
         headerItems: $('.sub-header').find('ul a'),
         contentItems: document.querySelector('.tab-list').querySelectorAll('.tab-item')
@@ -106,14 +108,14 @@ tabs.headerItems.each(function (index, ele) {
                 loverSwiper.slideTo(0);
                 break;
         }
-    }
+    };
 });
 
 $('.clip-pic-list').clipBox({
     swiper: featureSwiper
 });
 
-//�������
+//slide v-03 controller
 $('#faceView').face({
     iconWrapper: '.icon-group',
     faceWrapper: '.face-wrapper',
@@ -136,7 +138,7 @@ $('#faceView').face({
     }]
 });
 
-
+//slide v-01 'more details' controller
 $('#showDesign').click(function () {
     var designSwiperWrapper = $('.design-swiper-wrapper');
     designSwiperWrapper.addClass('active');
@@ -163,7 +165,7 @@ $('#showDesign').click(function () {
     }, 1000);
 });
 
-
+//owning him slides controller
 $('.lovers-swiper-container').find('.swiper-slide').each(function (index, scope) {
     var
         left = 'url("../../img/product/gzxb/lovers/v0' + parseInt(index + 1) + '-left.png")',
