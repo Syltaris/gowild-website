@@ -119,6 +119,7 @@
     border-right: none;
 }
 
+
 /*
  * homepage elements
  */
@@ -386,6 +387,7 @@
     text-align: center;
 }
 
+
 /*
  * support page elements
  */
@@ -611,6 +613,7 @@
 .ape-accordion.has-accordion-icon > .item.active .content {
     line-height: 1.5;
 }
+
 
 /*
  * about-us page elements
@@ -872,10 +875,10 @@
     display: block;
 }
 
+
 /*
  * smart-plus page elements
  */
-
 .plus-view {
     width: 100%;
     min-height: 100%;
@@ -900,10 +903,10 @@
     border-color: #B5B5B5;
 }
 
+
 /*
  * media page css, by zexuan on 20/12/2016
  */
-
 .social-media {
 	background: url('../img/media/media-background.jpg');
 	background-size: cover;
@@ -979,6 +982,7 @@
 	bottom: 0;
 	right: 0;
 }
+
 
 /*
  * media queries

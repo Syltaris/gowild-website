@@ -9,6 +9,7 @@
     font-style: normal;
 }
 
+
 /*
  * GongZi.XiaoBai page elements
  */
@@ -72,6 +73,7 @@
 .btn-tag.btn-fluid {
     width: auto !important;
 }
+
 
 /*
 * header-nav elements
@@ -587,6 +589,8 @@ footer .copy-right-container .content h3 {
     height: initial;
 }
 
+
+
 /*
  * support page elements
  */
@@ -702,6 +706,7 @@ footer .copy-right-container .content h3 {
     min-height: 550px;
     height: 70%;
 }
+
 
 /*
  * forms and tooltips
