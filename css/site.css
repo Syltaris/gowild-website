@@ -1011,7 +1011,7 @@ ul.payment-list {
 }
 
 .view.ours-view .banner {
-    background-image: url('../img/ours/banner.png');
+    background-image: url('../img/about-us/banner.png');
 }
 
 .view.ours-view .banner .title-gowild {
@@ -1030,7 +1030,7 @@ ul.payment-list {
     width: 100%;
     height: 100%;
 
-    background: url('../img/ours/gowild.png') no-repeat center #e5e5e5;
+    background: url('../img/about-us/gowild.png') no-repeat center #e5e5e5;
 }
 
 .list-team-view {
@@ -1105,7 +1105,7 @@ ul.payment-list {
 
 .join-us-wrapper {
     position: relative;
-    background: url('../img/ours/join-us-background.png');
+    background: url('../img/about-us/join-us-background.png');
     display: flex;
 
     -webkit-background-size: cover;
@@ -2099,7 +2099,7 @@ ul.payment-list {
 }
 
 .plus-game-container .function-item.tv .game-icon:before {
-    background-image: url('../img/plus/tv.png');
+    background-image: url('../img/product/smart-plus/tv.png');
 }
 
 .plus-game-container .function-item.light {
@@ -2107,7 +2107,7 @@ ul.payment-list {
 }
 
 .plus-game-container .function-item.light .game-icon:before {
-    background-image: url('../img/plus/light.png');
+    background-image: url('../img/product/smart-plus/light.png');
 }
 
 .plus-game-container .function-item.audio {
@@ -2116,7 +2116,7 @@ ul.payment-list {
 }
 
 .plus-game-container .function-item.audio .game-icon:before {
-    background-image: url('../img/plus/audio.png');
+    background-image: url('../img/product/smart-plus/audio.png');
 }
 
 .plus-game-container .function-item.curtain {
@@ -2125,7 +2125,7 @@ ul.payment-list {
 }
 
 .plus-game-container .function-item.curtain .game-icon:before {
-    background-image: url('../img/plus/curtain.png');
+    background-image: url('../img/product/smart-plus/curtain.png');
 }
 
 .plus-game-container .function-item.ai {
@@ -2134,7 +2134,7 @@ ul.payment-list {
 }
 
 .plus-game-container .function-item.ai .game-icon:before {
-    background-image: url('../img/plus/ai.png');
+    background-image: url('../img/product/smart-plus/ai.png');
 }
 
 .plus-game-container .function-item.air-condition {
@@ -2143,7 +2143,7 @@ ul.payment-list {
 }
 
 .plus-game-container .function-item.air-condition .game-icon:before {
-    background-image: url('../img/plus/air-condition.png');
+    background-image: url('../img/product/smart-plus/air-condition.png');
 }
 
 .plus-game-container .function-item.conversation {
@@ -2152,7 +2152,7 @@ ul.payment-list {
 }
 
 .plus-game-container .function-item.conversation .game-icon:before {
-    background-image: url('../img/plus/conversation.png');
+    background-image: url('../img/product/smart-plus/conversation.png');
 }
 
 .letter-wrapper {
