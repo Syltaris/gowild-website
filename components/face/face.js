@@ -52,7 +52,7 @@ Face.prototype = {
 $.fn.face = function (options) {
     this.each(function (index, scope) {
         var faceObj = new Face(scope, options);
-    })
+    });
 };
 $.fn.face.options = {
     iconWrapper: '',

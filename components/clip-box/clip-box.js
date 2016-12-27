@@ -26,7 +26,7 @@ ClipBox.prototype = {
             _self.items.push({
                 target: $(ele),
                 scrollValue: 0   
-            })
+            });
         });
         for (var i = 0; i < this.items.length; i++) {
             this.items[i].target.css('z-index', (this.items.length - i) * 100);
