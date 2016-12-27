@@ -90,10 +90,6 @@ h6 {
     width: 100%;
 }
 
-/*.swiper-slide.swiper-slide-active {*/
-/*z-index: 100;*/
-/*}*/
-
 .swiper-pagination-bullet {
     width: 5px;
     height: 16px;
@@ -318,19 +314,21 @@ header {
     display: block;
 }
 
-/**
- *youth
- *---------------------------------*/
+/*
+ * 'mini' slides
+ */
 .swiper-container.youth .icon {
     color: #505050;
 }
 
+/* slide v01 */
 .swiper-container.youth .swiper-wrapper .v-banner {
     padding-top: 120px;
     flex-direction: column;
     background-color: #fff;
 }
 
+/* slide v02 */
 .swiper-container.youth .swiper-wrapper .v-02 {
     background-image: url('../img/product/gwais/v-02.png');
 }
@@ -345,7 +343,7 @@ header {
     width: 32%;
 }
 
-/*=========v03========*/
+/* slide v03 */
 .swiper-container.youth .swiper-wrapper .v-03 h1 {
     color: #fff;
     line-height: 80px;
@@ -387,7 +385,7 @@ header {
     line-height: initial;
 }
 
-/*======== v04 =========*/
+/* slide v04 */
 .swiper-container.youth .swiper-wrapper .v-04 {
     background-image: url('../img/product/gwais/v-04.png');
 }
@@ -423,12 +421,12 @@ header {
     margin: 30px auto;
 }
 
-/*======== v05 =========*/
+/* slide v05 */
 .swiper-container.youth .swiper-wrapper .v-05 {
     background-image: url('../img/product/gwais/v-params.png');
 }
 
-/*=======  v06 ========*/
+/* slide v06 */
 .swiper-container.youth .swiper-wrapper .v-06 {
     flex-direction: column;
 }
@@ -463,6 +461,7 @@ header {
     border-radius: 30px;
 }
 
+/* slide v07 */
 .swiper-container.youth .swiper-wrapper .v-07 {
     background-color: #dcdcdc;
 }
@@ -495,6 +494,7 @@ header {
     line-height: 16px;
 }
 
+/* slide v08 */
 .swiper-container.youth .swiper-wrapper .v-08 {
     background-color: #333;
 }
@@ -594,8 +594,8 @@ header {
 }
 
 /*
- *celebrity
- *-----------------------------------*/
+ *celebrity version slides
+ */
 .celebrity-container .v-banner {
     background-image: url('../img/product/gwais/celebrity-banner.png');
 }
@@ -631,9 +631,9 @@ header {
     flex-direction: column;
 }
 
-/**
- *goto crowdfunding
- *-----------------------------------*/
+/*
+ * crowdfunding (?)
+ */
 .celebrity-container .swiper-wrapper .v-goto-crowdfunding {
     text-align: center;
 }
@@ -849,16 +849,16 @@ header {
     text-align: center;
 }
 
-/**
- * taobao zhongchou
- ***************************/
+/*
+ * taobao redirect link
+ */
 .swiper-slide .buy-link-wrapper {
     margin-left: 40px;
 }
 
-/**
- * color show
- ***************************************/
+/*
+ * color selection
+ */
 .color-show {
     flex: 1;
     position: relative;

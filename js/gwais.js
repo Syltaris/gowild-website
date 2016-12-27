@@ -2,41 +2,6 @@
  * Created by psy on 2016/1/5.
  */
 
-var loverSwiper = new Swiper('#loverSwiper', {
-    pagination: '#loverSwiperPagenation',
-    paginationClickable: true,
-    direction: 'vertical',
-    mousewheelControl: true,
-    loop: false,
-    speed: 1000,
-    /* NOTE: rough fix of animated not removing and adding properly */
-    onSlideChangeStart: function (swiper) {
-    	 $prevSlide = $(swiper.slides[swiper.activeIndex-1]);
-    	 
-    	 if($prevSlide.hasClass('animated')) {
-    	 	$prevSlide.removeClass('animated');
-    	 } else {
-    	 	$(swiper.slides[swiper.activeIndex+1]).removeClass('animated');
-    	 }
-
-    },
-    onSlideChangeEnd: function (swiper) {
-        var headerClass = $(swiper.slides[swiper.activeIndex]).attr('data-header-class') || '';
-        if (this.headerClass != '') {
-            $('.header-wrapper').removeClass(this.headerClass);
-        }
-        if (headerClass != '') {
-            $('.header-wrapper').addClass(headerClass);
-            this.headerClass = headerClass;
-        }
-        $(swiper.slides[swiper.activeIndex]).addClass('animated');
-    },
-    onInit: function (_self) {
-        setTimeout(function () {
-            $(_self.slides[_self.activeIndex]).addClass('animated');
-        }, 1000);
-    }
-});
 var featureSwiper = new Swiper('#featureSwiper', {
     pagination: '#featureSwiperPagination',
     paginationClickable: true,
@@ -53,7 +18,6 @@ var featureSwiper = new Swiper('#featureSwiper', {
     	 } else {
     	 	$(swiper.slides[swiper.activeIndex+1]).removeClass('animated');
     	 }
-
     },
     onSlideChangeEnd: function (swiper) {
         if (swiper.activeIndex == 5) {
@@ -93,11 +57,11 @@ tabs.headerItems.each(function (index, ele) {
                 featureSwiper.slideTo(0);
                 break;
         }
-    }
+    };
 });
 
-/**
- * youth image
+/*
+ * 'mini' slides
  */
 var youthGwaisShow = $('#youthGwaisShow');
 
@@ -114,13 +78,13 @@ youthGwaisShow.find('.color-list').find('li').click(function () {
                 images.push({
                     imageUrl: '../../img/product/gwais/youth/' + color + '/0' + i + '.png',
                     thumbnailImageUrl: '../../img/product/gwais/youth/' + color + '/0' + i + '@min.png'
-                })
+                });
             }
 
             return images;
         })(),
         underlineColor: colorValue
-    })
+    });
 
     //select underline color
     $(this).parent().find('li.active').css('background-color', 'transparent').removeClass('active');
@@ -129,7 +93,7 @@ youthGwaisShow.find('.color-list').find('li').click(function () {
         .addClass('active');
 });
 
-//jqueryæ‚¬æµ®
+//jquery
 var _box_y = $(".v-tab").offset().top+650;
 var _box_x = $(".v-tab").offset().left;
 var divcss1 = {position: 'relative',top: '0px',};
@@ -143,9 +107,9 @@ $(window).scroll(function(){
 });
 
 
-/**
- * celebrity image
- ******************************/
+/*
+ * celebrity version slides
+ */
 var celebrityGwaisShow = $('#celebrityGwaisShow');
 
 //render celebrity show swiper
@@ -224,13 +188,13 @@ var changeCelebrityImage = function (selectType, color) {
                 images.push({
                     imageUrl: '../../img/product/gwais/celebrity/' + selectType + '/0' + i + '.png',
                     thumbnailImageUrl: '../../img/product/gwais/celebrity/' + selectType + '/0' + i + '@min.png'
-                })
+                });
             }
             return images;
         })(),
         underlineColor: color
     });
-}
+};
 
 //click once to show image
 youthGwaisShow.find('.color-list').find('li:first').click();
