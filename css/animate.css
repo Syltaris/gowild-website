@@ -1,4 +1,4 @@
-/**==========��transition==============*/
+
 .swiper-slide .content-wrapper h1 {
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
@@ -31,9 +31,9 @@
     transition: all 1.8s;
 }
 
-/**
-*����fadeInDown
-**********************************************************/
+/*
+* fadeInDown 
+*/
 .fadeInDown h1,
 .fadeInDown h2,
 .fadeInDown h3,
@@ -48,9 +48,9 @@
     transform: translate3d(0px, -80px, 0px);
 }
 
-/**
-*����fadeInUp
-************************************************************/
+/*
+* fadeInUp
+*/
 .fadeInUp .content-wrapper h1,
 .fadeInUp.content-wrapper h1,
 .fadeInUp .content-wrapper h2,
@@ -68,9 +68,6 @@
     transform: translate3d(0px, 100%, 0px);
 }
 
-/**
-*
-*********************************************************/
 .animated .content-wrapper h1,
 .animated .content-wrapper h2,
 .animated .content-wrapper h3,
@@ -85,9 +82,9 @@
     transform: translate3d(0px, 0px, 0px);
 }
 
-/**
-*icon group animation  ͼ����Ķ���
-*****************************************************/
+/*
+* icon group animation
+*/
 .swiper-slide .icon-group .icon, 
 .swiper-slide.icon-group .icon {
     -webkit-transition: transform 1s, opacity 1s;
