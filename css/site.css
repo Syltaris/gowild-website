@@ -455,11 +455,11 @@ ul.payment-list {
 /**
 *������ҳ
 ***********************************************/
-.protal-swiper {
+.portal-swiper {
 
 }
 
-.protal-swiper.swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet {
+.portal-swiper.swiper-container-horizontal > .swiper-pagination .swiper-pagination-bullet {
     margin: 0 8px;
 }
 
@@ -502,7 +502,7 @@ ul.payment-list {
     border-right: none;
 }
 
-.protal-swiper .swiper-slide .view-content {
+.portal-swiper .swiper-slide .view-content {
     position: relative;
     margin: 6% auto 0 auto;
 
@@ -510,15 +510,15 @@ ul.payment-list {
     height: 88%;
 }
 
-.protal-swiper .swiper-slide .view-content .title {
+.portal-swiper .swiper-slide .view-content .title {
     padding-top: 12%;
 }
 
-.protal-swiper .swiper-slide.v01 {
+.portal-swiper .swiper-slide.v01 {
     background: #f2f2f2;
 }
 
-.protal-swiper .swiper-slide.v01 .gongzi {
+.portal-swiper .swiper-slide.v01 .gongzi {
     position: absolute;
     top: 0;
     right: -90px;
@@ -542,9 +542,10 @@ ul.payment-list {
     }
 }
 
-/* loaded slides are here */
-
-.protal-swiper .swiper-slide.v01 .gongzi {
+/*
+ * gongzixiaobai.html slides
+ */
+.portal-swiper .swiper-slide.v01 .gongzi {
     -webkit-animation: fluctuating 3s;
     -o-animation: fluctuating 3s;
     animation: fluctuating 3s;
@@ -553,7 +554,7 @@ ul.payment-list {
     animation-iteration-count: infinite;
 }
 
-.protal-swiper .swiper-slide.v01 .xiaobai {
+.portal-swiper .swiper-slide.v01 .xiaobai {
     width: 35.4%;
     height: 88.8%;
 
@@ -565,105 +566,105 @@ ul.payment-list {
     margin-top: -80px;
 }
 
-.protal-swiper .swiper-slide.v02 {
+.portal-swiper .swiper-slide.v02 {
     background: url("../img/index/v2.png") no-repeat;
     background-size: cover;
     color: #fff;
 }
 
-.protal-swiper .swiper-slide.v02 .btn-group .btn {
+.portal-swiper .swiper-slide.v02 .btn-group .btn {
     color: #fff;
 }
 
-.protal-swiper .swiper-slide.v02 h2 {
+.portal-swiper .swiper-slide.v02 h2 {
     margin-bottom: 0;
 }
 
-.protal-swiper .swiper-slide.v02 h1 {
+.portal-swiper .swiper-slide.v02 h1 {
     margin-top: 0;
 }
 
-.protal-swiper .swiper-slide.v03 {
+.portal-swiper .swiper-slide.v03 {
     background: #eaeaea;
 }
 
-.protal-swiper .swiper-slide.v03 .article-table-cell.right {
+.portal-swiper .swiper-slide.v03 .article-table-cell.right {
     text-align: center;
 }
 
-.protal-swiper .swiper-slide.v03 .article-table-cell.left img {
+.portal-swiper .swiper-slide.v03 .article-table-cell.left img {
     max-width: 460px;
     margin-top: -20px;
 }
 
-.protal-swiper .swiper-slide.v-plus {
-    background: url("../img/plus/index-banner.png") no-repeat;
+.portal-swiper .swiper-slide.v-plus {
+    background: url("../img/product/smart-plus/index-banner.png") no-repeat;
     background-size: cover;
     color: #fff;
 }
 
 @media screen and (min-width: 1860px) {
-    .protal-swiper .swiper-slide.v-plus {
-        background: url("../img/plus/index-banner@1920.png") no-repeat;
+    .portal-swiper .swiper-slide.v-plus {
+        background: url("../img/product/smart-plus/index-banner@1920.png") no-repeat;
     }
 }
 
-.protal-swiper .swiper-slide.v-plus .title {
+.portal-swiper .swiper-slide.v-plus .title {
     position: absolute;
     bottom: 10%;
     right: -2%;
 }
 
-.protal-swiper .btn-group.btn-group-lg .btn {
+.portal-swiper .btn-group.btn-group-lg .btn {
     padding-top: 6px;
     padding-bottom: 6px;
 }
 
-.protal-swiper .swiper-slide.v-plus .btn-group .btn {
+.portal-swiper .swiper-slide.v-plus .btn-group .btn {
     color: #fff;
 }
 
 /**=========��Ȫ========**/
-.protal-swiper .swiper-slide.v04 {
+.portal-swiper .swiper-slide.v04 {
     background: url("../img/index/yuquan.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
 }
 
-.protal-swiper .swiper-slide.v04 .btn-group-lg {
+.portal-swiper .swiper-slide.v04 .btn-group-lg {
     margin-left: 5px;
 }
 
-.protal-swiper .swiper-slide.v04 .view-content .btn-group-wrapper {
+.portal-swiper .swiper-slide.v04 .view-content .btn-group-wrapper {
     position: absolute;
     right: -60px;
     top: 30px;
 }
 
-.protal-swiper .swiper-slide.v04 .view-content .btn-group-wrapper img {
+.portal-swiper .swiper-slide.v04 .view-content .btn-group-wrapper img {
     display: block;
 }
 
-.protal-swiper .swiper-slide.v05 .article-table-cell.left {
+.portal-swiper .swiper-slide.v05 .article-table-cell.left {
     background: url("../img/index/v05-left.png") no-repeat center;
 
     -webkit-background-size: contain;
     background-size: contain;
 }
 
-.protal-swiper .swiper-slide.v05 .article-table-cell.right {
+.portal-swiper .swiper-slide.v05 .article-table-cell.right {
     background: url("../img/index/v05-right.png") no-repeat center;
     background-size: initial;
 }
 
 @media screen and (max-width: 1000px) {
-    .protal-swiper .swiper-slide.v05 .article-table-cell.right {
+    .portal-swiper .swiper-slide.v05 .article-table-cell.right {
         background-size: contain;
     }
 }
 
 /**=============Ԥ�۹��==============**/
-.protal-swiper .swiper-slide.v05 .article-table-cell.right .btn-group-wrapper {
+.portal-swiper .swiper-slide.v05 .article-table-cell.right .btn-group-wrapper {
     position: absolute;
     left: 0;
     right: 0;
@@ -675,19 +676,19 @@ ul.payment-list {
 /**
  * gwais banner
  */
-.protal-swiper .swiper-slide.gwais-01 {
+.portal-swiper .swiper-slide.gwais-01 {
     background: url("../img/index/gwais-banner1.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
 }
 
-.protal-swiper .swiper-slide.gwais-02 {
+.portal-swiper .swiper-slide.gwais-02 {
     background: url("../img/index/gwais-banner2.png") no-repeat center;
     -webkit-background-size: cover;
     background-size: cover;
 }
 
-.protal-swiper .about-ai {
+.portal-swiper .about-ai {
     background: url("../img/index/about-ai/1.jpg") no-repeat center;
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
@@ -696,36 +697,36 @@ ul.payment-list {
 /**
 *���˽ڻ
 *****************************************************************/
-.protal-swiper .swiper-slide.v-lovers {
+.portal-swiper .swiper-slide.v-lovers {
     -webkit-background-size: cover;
     background-size: cover;
 }
 
-.protal-swiper .swiper-slide.v-lovers .article-table-cell.left {
+.portal-swiper .swiper-slide.v-lovers .article-table-cell.left {
     background: url("../img/index/lovers-left.png") no-repeat center;
 
     -webkit-background-size: cover;
     background-size: cover;
 }
 
-.protal-swiper .swiper-slide.v-lovers .article-table-cell.right img {
+.portal-swiper .swiper-slide.v-lovers .article-table-cell.right img {
     width: 90%;
 }
 
 /**
  * zhao wu jie
  ***************************************************************/
-.protal-swiper .swiper-slide.zaowujie {
+.portal-swiper .swiper-slide.zaowujie {
     background: url("../img/index/holo-era.png") no-repeat center;
     background-size: 100% 100%;
 }
 
-.protal-swiper .swiper-slide.hit-holoera {
+.portal-swiper .swiper-slide.hit-holoera {
     background: url("../img/index/banner-holoera-hit.jpg") no-repeat center;
     background-size: 100% 100%;
 }
 
-.protal-swiper .swiper-slide.world-robot-meeting {
+.portal-swiper .swiper-slide.world-robot-meeting {
     background: url("../img/index/world-robot-meeting.jpg") no-repeat center;
     background-size: 100% 100%;
 }

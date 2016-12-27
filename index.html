@@ -38,65 +38,19 @@
         <nav>
             <ul>
                 <li><a href="home/product/gongzixiaobai.html">GongZi.XiaoBai</a></li>
-                <li><a href="home/plus/index.html">GongZi.XiaoBai Smart Plus</a></li>
+                <li><a href="home/product/smart-plus.html">GongZi.XiaoBai Smart Plus</a></li>
                 <li><a href="home/product/gwais.html">Mini GongZi.XiaoBai</a></li>
                 <li><a href="http://bbs.gowild.cn">Gowild.CN</a></li> 
-                <li><a href="home/support/index.html">Support</a></li>
+                <li><a href="home/support/support.html">Support</a></li>
                 <li><a href="http://store.gowild.cn">Store</a></li>
                 <li><a href="home/about-us/about-us.html">About Us</a></li>
             </ul>
         </nav>
-        <!--- TODO: check this functionality --->
-        <div class="user-profile">
-            <span class="icon icon-user"></span>
-
-            <div class="profile-btn-wrapper">
-                <a href="http://store.gowild.cn/home/users/login.html">Login</a>
-                <span class="splitter"></span>
-                <a href="http://store.gowild.cn/home/users/regist.html">Register</a>
-            </div>
-            <a class="icon icon-cart user-cart" href="javascript:void(0);">
-                <i class="cart-count">9</i>
-            </a>
-        </div>
     </header>
 </div>
 
-<!--- TODO: check what this affects? --->
-<div class="user-cart-details">
-    <div class="row title">
-        <div class="col col-xs-12 col-md-12 col-lg-12">
-            <h4>Shopping Cart(1)</h4>
-        </div>
-    </div>
-
-    <div class="goods-list">
-        <div class="item">
-            <img src="img/xiaobai.png">
-
-            <div class="item-content">
-                <h6 class="goods-title">GongZi.XiaoBai Robot</h6>
-
-                <h6>1 x �1688</h6>
-                <h6>Model/GWID-AW </h6>
-                <h6>Colour/Milky White</h6>
-            </div>
-            <i class="icon-delete"></i>
-        </div>
-    </div>
-    <div class="row has-btn">
-        <div class="col col-xs-6 col-md-6 com-lg-6">
-            <span class="display-name">Total:</span>
-            <span class="display-field price">$1688</span>
-        </div>
-        <div class="col col-xs-6 col-md-6 com-lg-6">
-            <button class="btn btn-success btn-block">Check Out</button>
-        </div>
-    </div>
-</div>
-
 <!--- NOTE: load images from css/site.css --->
-<div class="swiper-container protal-swiper">
+<div class="swiper-container portal-swiper">
     <div class="swiper-wrapper">
         <!-- 1st: some conference -->
         <div class="swiper-slide world-robot-meeting">
@@ -155,16 +109,16 @@
         <div class="swiper-slide v-plus" data-header-class="header-black">
             <div class="view-content">
                 <div class="title">
-                    <img src="img/plus/plus-logo.png" style="width: 180px;display: block;">
+                    <img src="img/smart-plus/smart-plus_logo.png" style="width: 180px;display: block;">
                 </div>
 
                 <div class="btn-group btn-group-lg">
-                    <a class="btn btn-default" href="http://www.gowild.cn/home/plus/index.html">Customised Industrial Version</a>
+                    <a class="btn btn-default" href="http://www.gowild.cn/home/product/smart-plus.html">Customised Industrial Version</a>
                     <a class="btn btn-default">3999 RMB</a>
                 </div>
                 <br/>
                 <div class="btn-group btn-group-lg">
-                    <a class="btn btn-default" href="http://www.gowild.cn/home/plus/index.html">Smart Plus Version</a>
+                    <a class="btn btn-default" href="http://www.gowild.cn/home/product/smart-plus.html">Smart Plus Version</a>
                     <a class="btn btn-default">5999 RMB</a>
                 </div>
 
@@ -178,7 +132,7 @@
 </div>
 
 <div class="ape-pic-list nav-pic-list">
-    <a class="item" href="home/ours/index.html">
+    <a class="item" href="home/about-us/about-us.html">
         <img src="img/index/youth.png">
 
         <div class="title">
@@ -220,7 +174,7 @@
                     <img src="img/buy.png">
                 </div>
                 <div class="footer-col">
-                    <img src="img/ours.png">
+                    <img src="img/about-us.png">
                 </div>
             </div>
         </div>
@@ -239,7 +193,7 @@
                             <a href="http://www.gowild.cn/home/download/index.html">Downloads</a>
                         </li>
                         <li>
-                            <a href="home/support/tech.html">Support</a>
+                            <a href="home/support/support_technical.html">Support</a>
                         </li>
                     </ul>
                 </div>
@@ -265,13 +219,13 @@
                             <a>About Us</a>
                         </li>
                         <li>
-                            <a href="home/ours/index.html">Gowild</a>
+                            <a href="home/about-us/about-us.html">Gowild</a>
                         </li>
                         <li>
                             <a href="home/media/media.html">News</a>
                         </li>
                         <li>
-                            <a href="home/support/index.html">Contact Us</a>
+                            <a href="home/support/support.html">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -300,7 +254,7 @@
 
 </div>
 <script src="lib/jquery/jquery.js"></script>
-<script src="lib/html5shiv/html5shiv.js"></script>
+<script src="lib/html5shiv/html5shiv.min.js"></script>
 <script src="lib/swiper/js/swiper.jquery.js"></script>
 <script src="components/imax/imax.js"></script>
 <script src="js/common.js"></script>
@@ -318,7 +272,7 @@
     $('.video-imax').imax({
         autoplay: false
     });
-    $('.protal-swiper').find('.btn.btn-product-video').click(function (e) {
+    $('.portal-swiper').find('.btn.btn-product-video').click(function (e) {
         $('.video-imax').imax({
             autoplay: true,
             videoUrl: $(this).attr('data-video-url')
