@@ -908,3 +908,26 @@ header {
 #celebrityShowSwiper .swiper-slide.active {
     display: block;
 }
+
+footer .copy-right-container .content {
+	width: 40%;
+	display: inline-block;
+	text-align: left;
+}
+
+footer .copy-right-container .content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* social media footer links */
+footer .social-media-links {
+	width: 35%;
+	display: inline-block;
+	
+	font-size: 20px;
+}
+
+footer .social-media-links a {
+	margin-right: 2px;
+}

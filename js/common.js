@@ -26,7 +26,7 @@ Common.prototype = {
                     setTimeout(function () {
                         $header.removeClass('active');
                     }, 1500);
-
+					
                     _self.lastTopScrollTimeStamp = e.timeStamp;
                 }
             }
