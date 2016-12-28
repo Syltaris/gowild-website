@@ -411,13 +411,27 @@ footer .copy-right-container {
 }
 
 footer .copy-right-container .content {
-
+	width: 50%;
+	display: inline-block;
 }
 
 footer .copy-right-container .content h3 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+/* social media footer links */
+footer .social-media-links {
+	width: 21%;
+	display: inline-block;
+	
+	font-size: 20px;
+}
+
+footer .social-media-links a {
+	margin-right: 2px;
+}
+
 
 /* support page elements */
 .layout {
