@@ -20,7 +20,9 @@ Below are the list of dependencies/libraries that are being used for the website
   <li>html5shiv</li>
 </ol>
 <h2>Architecture</h2>
-<p>Excluding the homepage, there are 8 subpages in the website:
+The website uses `html5` and follows the `bootstrap` theme by using its stylesheet. <br>
+Excluding the homepage, there are 8 subpages in the website:
+<p>
  <ol>
   <li>GongZi.XiaoBai</li>
   <li>GongZi.XiaoBai Smart Plus</li>
@@ -33,7 +35,7 @@ Below are the list of dependencies/libraries that are being used for the website
  </ol>
 </p>
  The mobile webpage is a seperate entity and has its own seperate content that needs to be updated seperately. <br>
- Starting from the `dash.html` homepage, it has :
+ Starting from the `dash.html` homepage, it has:
 <p> 
  <ol>
   <li>GongZi.XiaoBai</li>
@@ -52,3 +54,4 @@ Below are the list of dependencies/libraries that are being used for the website
 For the main website, all pages use the stylesheets from `base.css` and `site.css` located in the `css` folder.
 Only 2 pages, GongZi.XiaoBai and Mini GongZi.XiaoBai, do not use the same `site.css` and use their own stylesheets which are
 `gzxb.css` and `gwais.css` respectively.
+
