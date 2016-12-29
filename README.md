@@ -19,3 +19,36 @@ Below are the list of dependencies/libraries that are being used for the website
   <li>jQuery</li>
   <li>html5shiv</li>
 </ol>
+<h2>Architecture</h2>
+<p>Excluding the homepage, there are 8 subpages in the website:
+ <ol>
+  <li>GongZi.XiaoBai</li>
+  <li>GongZi.XiaoBai Smart Plus</li>
+  <li>Mini GongZi.XiaoBai</li>
+  <li>Support</li>
+  <li>Support-Technical</li>
+  <li>Support-How-to</li>
+  <li>Support-After Sales</li>
+  <li>About Us</li>
+ </ol>
+</p>
+ The mobile webpage is a seperate entity and has its own seperate content that needs to be updated seperately. <br>
+ Starting from the `dash.html` homepage, it has :
+<p> 
+ <ol>
+  <li>GongZi.XiaoBai</li>
+  <li>GongZi.XiaoBai Smart Plus</li>
+  <li>Mini GongZi.XiaoBai</li>
+  <li>Mini GongZi.XiaoBai Celebrity Version</li>
+  <li>Support(list.html)</li>
+  <li>Support-GongZi.XiaoBai</li>
+  <li>Support-Mini GongZi.XiaoBai</li>
+  <li>Support-Downloads</li>
+  <li>News(loads external .php content)</li>
+  <li>About Us</li>
+  <li>WiFi QR Code Generator</li>
+ </ol>
+</p>
+For the main website, all pages use the stylesheets from `base.css` and `site.css` located in the `css` folder.
+Only 2 pages, GongZi.XiaoBai and Mini GongZi.XiaoBai, do not use the same `site.css` and use their own stylesheets which are
+`gzxb.css` and `gwais.css` respectively.
